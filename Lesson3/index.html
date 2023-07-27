@@ -9,11 +9,13 @@
 </head>
 
 <body>
+
+
     <div class="header">
         <a class="header_link" href="../Lesson3/index.html">Main</a>
         <a class="header_link" href="../Lesson3/about.html">About</a>
         <a class="header_link" href="#">Contacts</a>
-
+        <div id="current_date_time_block"></div>
         <div>
             <form class="search1" role="search" action="https://google.com/search" target="_blank">
                 <input class="search" type="text" name="query" placeholder="Поиск Google" autocomplete="off"
@@ -22,7 +24,7 @@
         </div>
     </div>
 
-    
+
 
     <dl>
         <dt>Main</dt>
@@ -67,6 +69,34 @@
         nemo enim, ratione adipisci voluptatem fugiat omnis quos voluptates ullam facilis! Porro, quas. Ipsum ullam
         maiores magnam tenetur nisi!
     </p>
+
+
+
+    <script type="text/javascript">
+
+        /* функция добавления ведущих нулей */
+        /* (если число меньше десяти, перед числом добавляем ноль) */
+        function zero_first_format(value) {
+            if (value < 10) {
+                value = '0' + value;
+            }
+            return value;
+        }
+
+        /* функция получения текущей даты и времени */
+        function date() {
+            var current_date = new Date();
+            var day = zero_first_format(current_date.getDate());
+            var month = zero_first_format(current_date.getMonth() + 1);
+            var year = current_date.getFullYear();
+
+            return day + "." + month + "." + year;
+        }
+
+        /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
+        document.getElementById('current_date_time_block').innerHTML = date();
+    </script>
+
 </body>
 
 </html>

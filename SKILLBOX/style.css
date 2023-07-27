@@ -1,0 +1,22 @@
+body {
+    width: 1440px;
+    height: 1343px;
+    background: #d26d6d;
+    
+}
+
+section{
+    width: 800px;
+    height: 200px;
+    background-color: azure;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: brown;
+}
+
