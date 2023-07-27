@@ -185,7 +185,7 @@ body {
     border-radius: 10px;
     background: #132035;
     padding: 30px;
-    /* text-align: center; */
+    text-align: center;
     display: grid;
     justify-items: center;
     gap: 30px;
