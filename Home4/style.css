@@ -53,7 +53,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -122,7 +122,6 @@ body {
     background: #020A18;
     /* width: 1146px; */
     /* height: 4432px; */
-
 }
 
 .middle_top {
@@ -133,17 +132,12 @@ body {
     margin-bottom: 264px;
 }
 
-.top_middle_left {
-    width: 594px;
-    height: 548px;
-}
-
 .title_top_middle {
     color: #FFF;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 52px */
+    line-height: 130%;
     margin-bottom: 30px;
 }
 
@@ -152,7 +146,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
     padding-bottom: 50px;
 }
 
@@ -176,6 +170,8 @@ body {
 }
 
 /* Середина */
+
+
 .middle_section_up {
     display: grid;
     gap: 30px;
@@ -219,7 +215,89 @@ body {
     gap: 60px;
 }
 
+/* Середина низ */
+
+.middle_down {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;  
+    /* gap: 25px;   */
+}
+
+.title_down_middle {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    
+}
+
+.description_down_middle {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 460px;
+    opacity: 0.699999988079071;
+}
+
+.down_middle_left {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle_down_section {
+    margin-bottom: 221px;
+}
+
+/* Контакты */
+
+.info_details {
+    /* background-color: #132035;
+    display: grid;
+    gap: 56px;
+    grid-template-columns: repeat(3, 209px);
+    justify-content: center;
+    color: #FFF;
+    margin-bottom: 200px; */
+
+    display: flex;
+    margin: 0 auto;
+    width: 1146px;
+
+justify-content: space-between;
+align-items: flex-start;
+color: #FFF;
+    
+}
+
+.info_title {
+    width: 228.623px;
+
+}
 
 
+.info_title {
+    /* display: grid; */
+}
+
+.details {
+    /* padding: 0px 0px 33px 0px; */
+    /* display: block; */
+}
 
 
+/* .contacts {
+    display: flex;
+    width: 362px; */
+    /* height: 103.889px; */
+    /* flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    flex-shrink: 0;;
+} */
