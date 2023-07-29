@@ -58,14 +58,13 @@ body {
 }
 
 .title {
-    color: var#FFF;
+    color:#FFF;
+    font-family: Open Sans;
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
     line-height: 130%;
-    width: 604px;
-    margin-bottom: 40px;
-   
+   padding-bottom: 40px;
 }
 
 .description {
@@ -75,7 +74,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     opacity: 0.699999988079071;
 }
 
