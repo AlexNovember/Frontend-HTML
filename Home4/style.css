@@ -29,7 +29,7 @@ body {
 }
 
 .header_link {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -58,11 +58,11 @@ body {
 }
 
 .title {
-    color: var(--ffffff, #FFF);
+    color: var#FFF;
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
-    line-height: 130%; /* 71.5px */
+    line-height: 130%;
     width: 604px;
     margin-bottom: 40px;
    
@@ -70,7 +70,7 @@ body {
 
 .description {
     width: 558px;
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -86,7 +86,7 @@ body {
     gap: 10px;
     border-radius: 5px;
     background: #3A68B8;
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -120,8 +120,6 @@ body {
 
 .middle_top_section {
     background: #020A18;
-    /* width: 1146px; */
-    /* height: 4432px; */
 }
 
 .middle_top {
@@ -142,7 +140,7 @@ body {
 }
 
 .description_top_middle {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -157,7 +155,7 @@ body {
     align-items: flex-start;
     gap: 10px;
     border-radius: 5px;
-    background: var(--3-a-68-b-8, #3A68B8);
+    background:  #3A68B8;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -195,7 +193,7 @@ body {
 }
 
 .title_mid {
-    color: var(--ffffff, #FFF);
+    color: #FFF;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
@@ -222,7 +220,6 @@ body {
     display: flex;
     justify-content: center;
     vertical-align: middle;  
-    /* gap: 25px;   */
 }
 
 .title_down_middle {
