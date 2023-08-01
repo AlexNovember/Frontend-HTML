@@ -4,11 +4,15 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    
-    
+
+img {
+    max-width: 100%;
+}
+
 }
 .body {
-    min-width: 50%;
+    max-width: 1630px;
+    min-width: 1566px;
 }
 
 .title {
@@ -204,6 +208,6 @@
 .search_text:hover {
     background-color: #F1E4E6;
     padding: 15px 39px;
+    color: black;
+    
 }
-
-
