@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
 body {
     background: #020A18;
     font-family: 'Open Sans', sans-serif;
@@ -12,11 +17,12 @@ body {
 
 .header {
     margin-bottom: 160px;
+    
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1146px;
+    
 }
 
 .header_flex {
@@ -38,14 +44,17 @@ body {
 
 .main {
     margin-bottom: 197px;
+    
+    
 }
 
 .flex {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 128px;
 }
+
+.main_left {}
 
 .main_title {
     color:  #3A68B8;
@@ -68,7 +77,7 @@ body {
 }
 
 .description {
-    width: 558px;
+    /* width: 558px; */
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -98,27 +107,21 @@ body {
     background-color: #ffffff;
 }
 
-.main_image {
-    width: 414px;
-    height: 415px;
-    flex-shrink: 0;
-}
-
-.flexlogo {
-    /* width: 1146px; */
-    margin-bottom: 256px;
-}
-
-.top_logo {
-    justify-content: space-between;
-    align-items: center;
+.logo_upper {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 71px;
+    margin-top: 197px;
+    margin-bottom: 256px;
 }
 
 /* Середина */
 
 .middle_top_section {
     background: #020A18;
+    margin-top: 256px;
 }
 
 .middle_top {
@@ -292,10 +295,48 @@ body {
 }
 
 .lot {
-    width: 261px;
+    /* width: 261px; */
     opacity: 0.6000000238418579;
     font-size: 14px;
     font-style: italic;
     font-weight: 100;
     line-height: normal;
+}
+
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 376px);
+    padding-right: calc(50% - 376px);
+  }
+
+  .main_title {
+    font-size: 16px;   
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main_left {
+    text-align: center;
+  }
+
+  .logo_upper {
+    max-width: 650px;
+    margin: auto;
+    gap: 32px;
+    /* flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    
+    margin-top: 197px;
+    margin-bottom: 277px;
+  }
+
 }
