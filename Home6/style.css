@@ -15,6 +15,13 @@ img {
     padding-right: calc(50% - 570px);
 }
 
+p {
+    font-style: normal;
+    line-height: normal;
+}
+
+/* -------------------------------------- */
+
 .title {
     min-height: 75px;
     background: #222222;
@@ -45,3 +52,141 @@ img {
     gap: 30px;
     align-items: baseline;
 }
+
+
+/* --------------------------------------- */
+
+.brand_info {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.brand {
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: center;
+}
+
+.brand_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.brand_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.brand_info {
+    align-items: center;
+}
+
+.main_text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text_red {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.choice {
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;  
+}
+
+.choice_items {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.choice_items_big {
+    grid-column: span 3;
+    display: grid;
+    justify-items: center;
+    align-content: baseline;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.text_upper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer_red {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;    
+}
+
+/* ------------------------------------------------------ */
+.board {
+    padding: 0 3%;
+}
+
+.goods_title {
+    min-height: 63px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.product_box_text {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section_bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    padding: 48px 0;
+}
+
+.items_name {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.items_about {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #F8F8F8;
+}
+
+.items_description {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.items_price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+

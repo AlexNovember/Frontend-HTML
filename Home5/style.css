@@ -18,7 +18,7 @@ img {
 
 .title {
     
-    /* position: relative; */
+    position: absolute;
     background-color: #222222;
     height: 75px;
     display: flex;
@@ -89,11 +89,11 @@ img {
     line-height: normal;
 }
 
-.choice {
+/* .choice {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .section_top {
     padding-top: 65px;
