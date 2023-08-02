@@ -190,3 +190,43 @@ p {
     font-weight: 400;
 }
 
+/* ------------------------- */
+
+.browse {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 74px;
+}
+
+.browse_body {
+    border: 1px solid #FF6A6A ; 
+}
+
+.browse_text {
+    display: inline-flex;
+    align-items: flex-start;
+    color: #FF6A6A; 
+    padding: 15px 39px;
+}
+
+.browse_text:hover {
+    background-color: #F1E4E6;
+    padding: 15px 39px;
+    color: black;
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+.center {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+}
+
+
+
+}
+
+
+
+    
