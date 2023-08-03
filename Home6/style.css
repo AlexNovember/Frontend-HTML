@@ -36,7 +36,7 @@ p {
 }
 
 .title_menu {
-    width: 95%;
+    width: 100%;
     min-width: 300px;
     min-height: 75px;
     background: #222222;
@@ -229,8 +229,8 @@ p {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 .center {
-    padding-left: calc(10% - 385px);
-    padding-right: calc(10% - 385px);
+    padding-left: calc(2% - 385px);
+    padding-right: calc(2% - 385px);
 }
 
 .board {
@@ -242,9 +242,9 @@ p {
     justify-content: center;
 }
 
-.title_menu {
-    width: 90%;
-}
+/* .title_menu {
+    width: 99%;
+} */
 
 /* .main_text, .bottom_text  {
     width: 283px;
