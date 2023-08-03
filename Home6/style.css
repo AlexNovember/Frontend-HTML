@@ -11,9 +11,9 @@ img {
 }
 
 .center {
-    min-width: 30%;
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
+    justify-content: center;
 }
 
 .board {
@@ -31,19 +31,19 @@ p {
     min-height: 75px;
     background: #222222;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .title_menu {
-    width: 80%;
+    width: 95%;
     min-width: 300px;
     min-height: 75px;
     background: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .left_menu {
@@ -239,6 +239,7 @@ p {
 
 .title {
     min-height: 74px;
+    justify-content: center;
 }
 
 .title_menu {
