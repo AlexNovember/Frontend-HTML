@@ -11,8 +11,8 @@ img {
 }
 
 .center {
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
 }
 
 .center_top {
@@ -21,7 +21,9 @@ img {
 }
 
 .board {
-    padding: 0 1%;
+    padding-left: calc(50% - 588);
+    padding-right: calc(50% - 588);
+    margin: 0 16px ;
 }
 
 p {
@@ -109,11 +111,15 @@ p {
 }
 
 .choice {
-    padding-top: 65px;
-    padding-bottom: 96px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;  
+    padding: 65px 16px 96px 16px;
+}
+
+.board1 {
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .choice_items {
@@ -272,6 +278,7 @@ p {
 .choice {
     padding-bottom: 110px;
     gap:20px;
+    padding: 0 16px;
 }
 
 .browse {
