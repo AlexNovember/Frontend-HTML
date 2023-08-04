@@ -13,7 +13,11 @@ img {
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
-    justify-content: center;
+}
+
+.center_top {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .board {
@@ -28,11 +32,8 @@ p {
 /* -------------------------------------- */
 
 .title {
-    min-height: 75px;
-    background: #222222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   background: #222222;
+    
 }
 
 .title_menu {
