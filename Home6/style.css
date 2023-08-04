@@ -39,14 +39,13 @@ p {
 }
 
 .title_menu {
-    width: 100%;
-    min-width: 300px;
+    /* min-width: 300px; */
     min-height: 75px;
     background: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: auto; */
+    padding: 0 16px;
 }
 
 .left_menu {
