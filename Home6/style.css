@@ -113,7 +113,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;  
-    padding: 65px 16px 96px 16px;
+    margin: 65px 16px 96px 16px;
 }
 
 .board1 {
@@ -157,7 +157,7 @@ p {
 /* ------------------------------------------------------ */
 
 .goods_title {
-    min-height: 63px;
+    /* min-height: 63px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -175,7 +175,7 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-content: center;
-    padding: 48px 16px 0 16px;
+    padding: 48px 16px 63px 16px;
 }
 
 .items_about {
