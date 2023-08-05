@@ -124,7 +124,7 @@ p {
     align-items: center;
 }
 
-.text_upper {
+.text_upper, .text_upper_big {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -302,7 +302,7 @@ p {
     }
 
 
-.icons, .brand_left {
+.icons, .brand_left, .text_upper_big {
     display: none;
 }
 
