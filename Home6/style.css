@@ -79,6 +79,7 @@ p {
 .box_red_line {
     display: flex;
     align-items: center;
+    padding-left: 63px;
 }
 
 .main_text {
@@ -233,6 +234,9 @@ p {
     color: black;
 }
 
+.items_scr:hover {
+    /* background-image: ; */
+}
 
 
 /* ----------------media 1 --------------- */
@@ -245,7 +249,7 @@ p {
 }
 
 .center_top {
-    padding: 0 calc(50vw - 384px);
+    padding: 0 calc(50vw - 386px);
 }
 
 .board {
@@ -279,6 +283,10 @@ p {
 
 .browse {
     margin-bottom: 70px;
+}
+
+.box_red_line {
+    padding-left: 39px;
 }
 
 }
