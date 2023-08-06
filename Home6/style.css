@@ -289,6 +289,14 @@ p {
     padding-left: 39px;
 }
 
+.main_text {
+    font-size: 44px;
+}
+
+.bottom_text, .text_red {
+    font-size: 24px;
+}
+
 }
 
 
