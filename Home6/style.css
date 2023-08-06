@@ -260,8 +260,7 @@ p {
 }
 
 .title {
-    min-height: 74px;
-    justify-content: center;
+    min-height: 74px;    
 }
 
 .choice {
