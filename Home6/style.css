@@ -368,8 +368,8 @@ p {
     justify-content: center;
 }
 
-.items_up {
-    overflow: hidden;
+.items_up:hover {
+    transform: none;
 }
 
 }
