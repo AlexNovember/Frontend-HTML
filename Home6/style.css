@@ -179,7 +179,7 @@ p {
 
 .items_up {
     display: grid;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .items_up:hover {
@@ -201,7 +201,6 @@ p {
 }
 
 .items_description {
-    width: 314px;
     color: #5D5D5D;
     font-size: 14px;
     font-weight: 300;
@@ -367,6 +366,10 @@ p {
     grid-template-columns: repeat(1, 1fr);
     gap: 16px;
     justify-content: center;
+}
+
+.items_up {
+    overflow: hidden;
 }
 
 }
