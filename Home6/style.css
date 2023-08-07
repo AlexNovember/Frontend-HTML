@@ -232,6 +232,7 @@ p {
     background-color: #F1E4E6;
     padding: 15px 39px;
     color: black;
+    
 }
 
 .items_scr:hover {
@@ -327,6 +328,10 @@ p {
     justify-content: center;
     flex-direction: row;
     align-items: center;
+}
+
+.box_red_line {
+    padding-left: 0;
 }
 
 .main_text {

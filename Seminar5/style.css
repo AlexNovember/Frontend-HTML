@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box_audio {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100vh;
+    height: 50vh;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    width: 50%;
+    text-align: center;
+}
+
+.box_video {
+    height: 100vh;
+    position: relative;
+}
