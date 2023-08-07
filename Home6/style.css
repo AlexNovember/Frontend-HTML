@@ -179,10 +179,7 @@ p {
 
 .items_up {
     display: grid;
-}
-
-.items_up {
-    transition: 0.3s; /* Время эффекта */
+    transition: 0.3s
 }
 
 .items_up:hover {
