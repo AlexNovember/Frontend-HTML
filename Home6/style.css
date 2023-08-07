@@ -181,6 +181,14 @@ p {
     display: grid;
 }
 
+.items_up {
+    transition: 0.3s; /* Время эффекта */
+}
+
+.items_up:hover {
+    transform: scale(1.04);
+}
+
 .items_about {
     display: flex;
     flex-direction: column;
