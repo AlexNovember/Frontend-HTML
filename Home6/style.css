@@ -178,12 +178,14 @@ p {
 }
 
 .items_up {
+    position: relative;
     display: grid;
     transition: 0.3s;
 }
 
-.items_up:hover {
+.items_up:hover .buy{
     transform: scale(1.04);
+    opacity: 1;
 }
 
 .items_about {
@@ -213,6 +215,22 @@ p {
     font-weight: 400;
 }
 
+.buy {
+    top:35%;
+    left: 35%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
 /* ------------------------- */
 
 .browse {
@@ -237,10 +255,6 @@ p {
     padding: 15px 39px;
     color: black;
     
-}
-
-.items_scr:hover {
-    /* background-image: ; */
 }
 
 
