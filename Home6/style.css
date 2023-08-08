@@ -183,8 +183,11 @@ p {
     transition: 0.3s;
 }
 
-.items_up:hover .buy{
+.items_up:hover {
     transform: scale(1.04);
+}
+
+.items_up:hover .buy{
     opacity: 1;
 }
 
@@ -215,13 +218,25 @@ p {
     font-weight: 400;
 }
 
+.items_scr {
+    opacity: 1;
+}
+
 .buy {
-    top:35%;
-    left: 35%;
+    top:30%;
+    left: 30%;
     position: absolute;
     display: flex;
     justify-content: center;
+    gap: 11px;
     opacity: 0;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+
+    border: 2px solid white;
+    padding: 12px 16px;
 }
 
 
