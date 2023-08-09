@@ -151,8 +151,7 @@ p {
 /* ------------------------------------------------------ */
 
 .buy {
-    display: none;
-    background-color: #222222;
+    opacity: 0;
 }
 
 .goods_title {
@@ -187,15 +186,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .items_scr:hover{
     background-color: rgba(58, 56, 56, 0.86);
     background-blend-mode: overlay;
+    opacity: .7;
 }
 
 .items_scr:hover .buy {
-    display: block;
+    transition: 1s;
+    opacity: 1;
 }
 
 .items_up {
@@ -261,6 +263,7 @@ p {
     background-color: #F1E4E6;
     padding: 15px 39px;
     color: black;
+    transition: 0.3s;
     
 }
 
