@@ -270,7 +270,7 @@ p {
     background-color: #F1E4E6;
     padding: 15px 39px;
     color: black;
-    transition: 0.3s;
+    transition:all 0.3s;
     
 }
 
