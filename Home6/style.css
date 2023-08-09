@@ -151,7 +151,7 @@ p {
 /* ------------------------------------------------------ */
 
 .buy {
-    display: block;
+    display: none;
     background-color: #222222;
 }
 
@@ -194,6 +194,10 @@ p {
     background-blend-mode: overlay;
 }
 
+.items_scr:hover .buy {
+    display: block;
+}
+
 .items_up {
     transition: 0.3s;
 }
@@ -201,8 +205,6 @@ p {
 .items_up:hover {
     transform: scale(1.05);
 }
-
-
 
 
 
@@ -232,12 +234,6 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
-
-
-
-
-
-
 
 
 
