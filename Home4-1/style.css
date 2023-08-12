@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+img {
+    width: 100%;;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+a {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+h {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bold {
+    font-size: 45px;
+}
+
+.text_1 {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+
+.center {
+    padding: 0 calc(50vw - 622.5px);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0 100px 0 100px;
+    height: 491px;
+    background: #FFF;
+}
+
+.title_items {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 31px 25px 30px;
+    gap: 25px;
+
+    
+}
+
+.main {
+    background: #FAFAFA;
+}
+
+.central_part {
+    display: flex;
+    margin-top: 54px;;
+    margin-bottom: 100px;
+    background: #FAFAFA;
+    gap: 30px;
+}
+
+.center_item {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+
+}
+
+.central_title {
+    padding: 0 calc(50vw - 330px);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 19px;
+    margin: 90px 0 54px 0;
+}
+
+.central_1 .central_2 .central_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    
+}
+
+
+.central_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap:23px;
+    padding: 0 30px;
+    background: #FFF;
+    padding-bottom: 50px;
+}
+
+.learn {
+    padding-top: 16px;
+}
+
+.description {
+    text-align: center;
+
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.central_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF
+}
+
+.edit {
+    padding-top: 14px;
+    
+}
+
+.learn {
+    
+    width: 150px;
+    height: 50px;
+    
+    
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: #f25822;
+    border-radius: 50px;
+   
+}
+
+.text_2 {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
