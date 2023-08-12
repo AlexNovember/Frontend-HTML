@@ -7,12 +7,12 @@
 }
 
 img {
-    width: 100%;;
+    width: 100%;
 }
 
 body {
     background: #FAFAFA;
-}
+    }
 
 a {
     color: #000;
@@ -49,6 +49,7 @@ h {
 
 .center {
     padding: 0 calc(50vw - 622.5px);
+    min-width: 740px;
 }
 
 .title {
@@ -56,12 +57,12 @@ h {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    padding: 0 100px 0 100px;
     height: 491px;
     background: #FFF;
 }
 
 .title_items {
+    width: 370px;
     display: flex;
     flex-direction: column;
     padding: 40px 31px 25px 30px;
