@@ -116,7 +116,7 @@ p {
 }
 
 .choice_items:hover  {
-    transform: scale(1.05);
+    transform: scale(1.02);
     
 }
 
@@ -194,6 +194,7 @@ p {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .items_scr:hover{
@@ -209,10 +210,11 @@ p {
 
 .items_up {
     transition: 0.3s;
+    background-color: #F8F8F8;
 }
 
 .items_up:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -222,7 +224,6 @@ p {
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-    background-color: #F8F8F8;
     padding: 24px 29px 24px 16px; 
 }
 
