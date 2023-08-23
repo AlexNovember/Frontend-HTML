@@ -319,7 +319,7 @@ p {
 /* ---------------------------------- */
 
 .register {
-    background: url(../Home6/img/Background.png) center center no-repeat;
+    background: url(img/Background.png) center center no-repeat;
     background-color: rgba(244, 244, 244, 0.70);
     background-blend-mode: overlay;
     height: 448px;
@@ -365,7 +365,7 @@ p {
 
 
 .register-form {
-    padding-top: 120px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -505,7 +505,7 @@ p {
 }
 
 .register {
-    background-image: url(../Home6/img/background700.png);
+    background-image: url(img/background700.png);
     height: 693px;
 }
 
@@ -517,7 +517,7 @@ p {
 }
 
 .register-info {
-    padding-top: 64px;
+    padding-top: 54px;
 }
 
 .register-form {
@@ -626,8 +626,8 @@ p {
 }
 
 .register-form {
-    padding-top: 48px;
-    padding-bottom: 109px;
+    padding-top: 59px;
+    gap:22px;
 }
 
 .input-form-inputs {
