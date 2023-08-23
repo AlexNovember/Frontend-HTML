@@ -645,7 +645,6 @@ p {
 }
 
 .register {
-    /* overflow: hidden; */
     height: 550px;
     background-position: top left;
 }
