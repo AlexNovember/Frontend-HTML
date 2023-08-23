@@ -640,7 +640,7 @@ p {
     justify-content: center;
     background-color: #222224;
     color: #FBFBFB;
-    padding-bottom: 48px 0 81px 0;
+    padding: 48px 0 81px 0;
     gap: 30px;
 }
 
