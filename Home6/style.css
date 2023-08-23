@@ -222,7 +222,6 @@ p {
 }
 
 .items_scr {
-    width: 360px;
     height: 420px;
     display: flex;
     justify-content: center;
