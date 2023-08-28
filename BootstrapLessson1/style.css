@@ -1,0 +1,13 @@
+.red {
+    color: red;
+    }
+
+.center {
+    padding: 0 calc(50vw - 500px);
+}
+
+.product-box {
+    /* display: flex;
+    justify-content: center; */
+    gap: 20px;
+}
