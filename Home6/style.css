@@ -116,12 +116,7 @@ p {
     display: grid;
     justify-items: center;
     align-items: center;
-    transition-duration: 0.3s;
-}
-
-.choice_items:hover  {
-    transform: scale(1.02);
-    
+    cursor: pointer;
 }
 
 .big {
