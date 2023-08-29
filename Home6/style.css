@@ -70,7 +70,7 @@ nav ul {
     list-style-type: none;
     position: absolute;
     right: 0px;
-    width: 232px;
+    max-width: 232px;
     margin-top: 25px;
     z-index: 1;
     padding: 32px;
@@ -487,16 +487,30 @@ nav ul {
     font-weight: 400;
 }
 
-.layer-one {
-     transition: 0.3s;
+.footer-logos {
+    display: flex;
+    gap: 7px;
 }
 
-.layer-one:hover {
-    fill: #F16D7F;
-    /* opacity: 0.6; */
-    /* filter:  sepia(1) hue-rotate(290deg) saturate(100); */
-    
+.footer-logo {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    transition: 0.3s;
 }
+
+.footer-logo:hover {
+     background-color: #F16D7F;
+}
+
+.footer-logo:hover .footer-logo-sign{
+    fill: white;
+}
+
     
 
 
