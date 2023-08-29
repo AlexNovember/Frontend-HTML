@@ -329,9 +329,9 @@ ul {
 
 .browse_text:hover {
     background-color: #F16D7F;
-    stroke-width: 0,5px;
+    stroke-width: 1px;
     stroke: #FF6A6A;
-    transition: 1s;
+    transition: 0,3s;
     color: white;
 }
 
