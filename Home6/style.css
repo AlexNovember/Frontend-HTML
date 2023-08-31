@@ -123,8 +123,14 @@ a {
   border: 1px solid #F16D7F;
 }
 
-.goods_section {
-  margin-top: 128px;
+.section_bottom {
+  padding: 129px 0;
+  margin: 0 !important;
+}
+
+.register_block {
+  justify-content: center !important;
+  gap: 350px;
 }
 
 * {
