@@ -18,7 +18,7 @@ a {
 .arrivals-new-arrivals {
   font-size: 24px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: normal;
   color: #F16D7F;
 }
@@ -76,14 +76,9 @@ a {
   font-weight: 300;
   line-height: normal;
   color: #F16D7F;
-  padding-bottom: 12px;
-}
-.product_description-line {
-  border-bottom: 3px solid #F16D7F;
-  margin: 0 44%;
 }
 .product_description-title {
-  padding: 12px 0 48px 0;
+  padding: 8px 0 48px 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -93,16 +88,38 @@ a {
 .product_description-text {
   font-size: 14px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 300;
   line-height: normal;
   color: #6F6E6E;
+  padding-bottom: 32px;
+  width: 550px;
+  margin: auto;
+  text-align: center;
 }
 .product_description-price {
-  font-size: 300;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 300;
   line-height: normal;
   color: #F16D7F;
+}
+
+.product_description-sorting_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #6F6E6E;
+  gap: 42px;
+  padding: 60px 0 48px 0;
+}
+
+.add_cart-button {
+  background-color: #FFFFFF;
+  border: 1px solid #F16D7F;
 }
 
 * {

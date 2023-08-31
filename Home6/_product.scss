@@ -74,33 +74,40 @@ a {
     }
 
     &-box {
-        // width: $bodyWidth;
         padding: 64px 0;
         text-align: center;
     }
 
     &-collection {
         @include fontStyle (14px, 300, $mainTextColor: $mainColor);
-        padding-bottom: 12px;
-    }
-
-    &-line {
-        border-bottom: 3px solid $mainColor;
-        margin: 0 44%;
     }
 
     &-title {
-        padding: 12px 0 48px 0;
+        padding: 8px 0 48px 0;
         @include fontStyle (18px, 300, $mainTextColor: $descriptionTitleTextColor);
     }
 
     &-text {
-        @include fontStyle (14px);
-
-
+        @include fontStyle (14px, 300);
+        padding-bottom: 32px;
+        width: 550px;
+        margin: auto;
+        text-align: center;
     }
 
     &-price {
-        @include fontStyle (300, $mainTextColor: $mainColor);
+        @include fontStyle (24px, 300, $mainTextColor: $mainColor);
     }
+}
+
+.product_description-sorting_menu {
+    @include flexFull;
+    @include fontStyle (14px, 400);
+    gap: 42px;
+    padding: 60px 0 48px 0;
+}
+
+.add_cart-button {
+    background-color: #FFFFFF;
+    border: 1px solid $mainColor;
 }
