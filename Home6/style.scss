@@ -28,11 +28,12 @@ input {
 }
 
 .center {
-    padding: 0 calc(50vw - 570px);
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
 }
 
 .center_top {
-    padding: 0 calc(50vw - 570px);
+    padding: 0 calc(50vw - 800px);
 }
 
 p {
