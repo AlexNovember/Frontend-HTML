@@ -1,0 +1,18 @@
+@import 'vars';
+
+
+
+@mixin flexFull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin fontStyle ($fontSize: 14px, $fontWeight: 400px, $lineHeight: normal, $mainTextColor: #6F6E6E) {
+    font-size: $fontSize;
+    font-style: normal;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    color: $mainTextColor;
+}

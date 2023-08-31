@@ -1,0 +1,106 @@
+@import 'vars';
+@import "mixins";
+
+a {
+    text-decoration: none;
+}
+
+
+.arrivals {
+    @include flexFull;
+    @include fontStyle (14px, $mainTextColor);
+    height: 148px;
+    background-color: $headColor;
+    justify-content: space-between;
+
+    &-new-arrivals {
+        @include fontStyle (24px, $mainTextColor: $mainColor);
+    }
+
+    &-link {
+        color: $mainTextColor;
+    }
+
+    &-link:not(:last-child)::after {
+        content: '/';
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    &-link-new {
+        color: $mainColor;
+    }
+}
+
+
+.carousel {
+    background-color: $pictureBoxBackground;
+    // height: 777px;
+
+    &-inner {
+        z-index: 1;
+    }
+
+    &-item {
+        left: 17%;
+        top: 0;
+    }
+
+    .d-block {
+        vertical-align: baseline;
+        background-color: $pictureBoxBackground;
+    }
+
+    &-control-next {
+        width: 10%;
+        left: 87%;
+    }
+
+    &-control-prev {
+        left: 0;
+    }
+}
+
+
+.product_description {
+    display: flex;
+    justify-content: space-between;
+    background-color: $bodyBackground;
+
+    &-empty {
+        min-width: 230px;
+        height: 64px;
+        background-color: $pictureBoxBackground;
+    }
+
+    &-box {
+        // width: $bodyWidth;
+        padding: 64px 0;
+        text-align: center;
+    }
+
+    &-collection {
+        @include fontStyle (14px, 300, $mainTextColor: $mainColor);
+        padding-bottom: 12px;
+    }
+
+    &-line {
+        border-bottom: 3px solid $mainColor;
+        margin: 0 44%;
+    }
+
+    &-title {
+        padding: 12px 0 48px 0;
+        @include fontStyle (18px, 300, $mainTextColor: $descriptionTitleTextColor);
+    }
+
+    &-text {
+        @include fontStyle (14px);
+
+
+    }
+
+    &-price {
+        @include fontStyle (300, $mainTextColor: $mainColor);
+    }
+}
