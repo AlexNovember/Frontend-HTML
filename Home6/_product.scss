@@ -38,6 +38,7 @@ a {
 
 .carousel {
     background-color: $pictureBoxBackground;
+    display: flex;
 
     &-inner {
         z-index: 1;

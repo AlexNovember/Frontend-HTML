@@ -36,6 +36,7 @@ a {
 
 .carousel {
   background-color: #F7F7F7;
+  display: flex;
 }
 .carousel-inner {
   z-index: 1;
