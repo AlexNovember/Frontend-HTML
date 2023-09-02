@@ -3,6 +3,7 @@
 @import 'header';
 @import 'menu';
 @import 'product';
+@import 'catalog';
 
 
 
@@ -399,6 +400,10 @@ p {
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
+}
+
+.footer {
+    background-color: $headTitleColor;
 }
 
 .footer-items {

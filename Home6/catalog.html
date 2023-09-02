@@ -2,24 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body>
+
     <header>
-        <div class="title">
-            <div class="title_menu center">
+        <div class="title center">
+            <div class="title_menu">
                 <div class="left_menu">
                     <a href="index.html"><img src="icons/logo.png" alt="Logo"></a>
                     <a class="search-icon" href="#"><svg width="27" height="28" viewBox="0 0 27 28" fill="none"
@@ -82,72 +77,17 @@
         </div>
     </header>
 
-    <main>
-        <section class="brand center_top">
-            <div class="brand_left">
-                <img class="main_img" src="img/main_pic.png" alt="Man in coat">
-            </div>
-            <div class="brand_right">
-                <div class="box_red_line">
-                    <img class="red_line" src="img/red_block.svg" alt="Red Line">
-                </div>
-                <div class="brand_info">
-                    <h2 class="main_text">THE BRAND</h2>
-                    <h2 class="bottom_text">OF LUXERIOUS<span class="text_red"> FASHION</span></h2>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
-    <section class="category center">
-        <div class="choice">
-            <div class="choice_items">
-                <a class="choice_pic" href="product.html"><img src="img/forwoman.png" alt="For women"></a>
-                <div class="text_upper">
-                    <p class="choice_offer">30% OFF</p>
-                    <h4 class="offer_red">FOR WOMEN</h4>
-                </div>
-            </div>
-            <div class="choice_items">
-                <a class="choice_pic" href="catalog.html"><img src="img/forman.jpg" alt="For man"></a>
-                <div class="text_upper">
-                    <p class="choice_offer">HOT DEAL</p>
-                    <h4 class="offer_red">FOR MAN</h4>
-                </div>
-            </div>
-            <div class="choice_items">
-                <a class="choice_pic" href="product.html"><img src="img/forkids.jpg" alt="For kids"></a>
-                <div class="text_upper">
-                    <p class="choice_offer">NEW ARRIVALS</p>
-                    <h4 class="offer_red">FOR KIDS</h4>
-                </div>
-            </div>
-            <div class="choice_items big">
-                <a class="test_big" href="#">
-                    <picture>
-                        <source srcset="img/accesories.jpg" media="(min-width: 768px)">
-                        <img src="img/accesories-phone.jpg" alt="accesories">
-                    </picture>
-                </a>
-                <div class="text_upper_big">
-                    <p class="choice_offer">LUXIROUS & TRENDY</p>
-                    <h4 class="offer_red">ACCESORIES</h4>
-                </div>
-            </div>
+    <section class="arrivals center">
+        <h3 class="arrivals-new-arrivals">NEW ARRIVALS</h3>
+        <div class="arrivals-links">
+            <a href="index.html" class="arrivals-link">HOME</a>
+            <a href="#" class="arrivals-link"> MAN</a>
+            <a href="#" class="arrivals-link-new"> NEW ARRIVALS</a>
         </div>
     </section>
 
-
-    <section class="goods">
-        <div class="goods_title">
-            <h2 class="product_box_heading">Fetured Items</h2>
-            <p class="product_box_text">Shop for items based on what we featured in this week</p>
-        </div>
-    </section>
-
-    <section class="goods_section">
-        <div class="section_bottom center">
+    <section class="goods_section center">
+        <div class="section_bottom">
             <div class="items_up">
                 <a class="items_scr" href="#" style="background-image: url(img/bottom1.png)">
                     <img class="buy" src="icons/Addtocart.png" alt="Add card"></a>
@@ -162,7 +102,7 @@
 
             </div>
             <div class="items_up">
-                <a class="items_scr" href="#" style="background-image: url(img/bottom2.png)">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog2.png)">
                     <img class="buy" src="icons/Addtocart.png" alt="Add card"></a>
                 <div class="items_about">
                     <p class="items_name">ELLERY X M'O CAPSULE</p>
@@ -198,7 +138,7 @@
                 </div>
             </div>
             <div class="items_up">
-                <a class="items_scr" href="#" style="background-image: url(img/bottom5.jpg)">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog5.jpg)">
                     <img class="buy" src="icons/Addtocart.png" alt="Add card"></a>
                 <div class="items_about">
                     <p class="items_name">ELLERY X M'O CAPSULE</p>
@@ -210,7 +150,43 @@
                 </div>
             </div>
             <div class="items_up">
-                <a class="items_scr" href="#" style="background-image: url(img/bottom6.jpg)">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog6.jpg)">
+                    <img class="buy" src="icons/Addtocart.png" alt="Add_card"></a>
+                <div class="items_about">
+                    <p class="items_name">ELLERY X M'O CAPSULE</p>
+                    <p class="items_description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter
+                        of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="items_price">$52.00</p>
+                </div>
+            </div>
+            <div class="items_up">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog7.jpg)">
+                    <img class="buy" src="icons/Addtocart.png" alt="Add_card"></a>
+                <div class="items_about">
+                    <p class="items_name">ELLERY X M'O CAPSULE</p>
+                    <p class="items_description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter
+                        of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="items_price">$52.00</p>
+                </div>
+            </div>
+            <div class="items_up">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog8.jpg)">
+                    <img class="buy" src="icons/Addtocart.png" alt="Add_card"></a>
+                <div class="items_about">
+                    <p class="items_name">ELLERY X M'O CAPSULE</p>
+                    <p class="items_description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter
+                        of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="items_price">$52.00</p>
+                </div>
+            </div>
+            <div class="items_up">
+                <a class="items_scr" href="#" style="background-image: url(img/catalog9.jpg)">
                     <img class="buy" src="icons/Addtocart.png" alt="Add_card"></a>
                 <div class="items_about">
                     <p class="items_name">ELLERY X M'O CAPSULE</p>
@@ -224,17 +200,7 @@
         </div>
     </section>
 
-
-
-    <section class="browse">
-        <div class="browse_body">
-            <a href="#">
-                <h5 class="browse_text">Browse All Product</h5>
-            </a>
-        </div>
-    </section>
-
-
+    <div class="roll_menu center"></div>
 
     <section class="why center">
         <div class="why_item">
@@ -279,10 +245,8 @@
         </div>
     </section>
 
-
-
-    <section class="register">
-        <div class="register_block center">
+    <section class="register center">
+        <div class="register_block">
             <div class="register-info">
                 <img class="register-img" src="img/Intersect.svg" alt="user photo">
                 <h5 class="register-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
@@ -290,7 +254,6 @@
                         pulvinar purus
                         condimentum“</span></h5>
             </div>
-
 
             <div class="register-form">
                 <h2 class="register-title"><span class="title-bold">SUBSCRIBE<br></span>
@@ -303,8 +266,8 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-items center">
+    <footer class="footer center">
+        <div class="footer-items">
             <p class="rights">© 2022 Brand All Rights Reserved.</p>
             <div class="footer-logos">
                 <a href="#" class="footer-logo"><svg width="11" height="16" viewBox="0 0 11 16" fill="none"
@@ -330,37 +293,37 @@
                 </a>
                 <a href="#" class="footer-logo"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_190_1618)">
+                        <g clip-path="url(#clip0_52_195)">
                             <path class="footer-logo-sign"
                                 d="M6.7402 0.203125C3.55552 0.203125 0.408081 2.34063 0.408081 5.8C0.408081 8 1.63726 9.25 2.38221 9.25C2.68951 9.25 2.86643 8.3875 2.86643 8.14375C2.86643 7.85313 2.13079 7.23438 2.13079 6.025C2.13079 3.5125 4.03043 1.73125 6.48878 1.73125C8.60259 1.73125 10.167 2.94062 10.167 5.1625C10.167 6.82187 9.50585 9.93437 7.3641 9.93437C6.59121 9.93437 5.93006 9.37187 5.93006 8.56563C5.93006 7.38438 6.74951 6.24062 6.74951 5.02187C6.74951 2.95312 3.83487 3.32812 3.83487 5.82812C3.83487 6.35313 3.90006 6.93437 4.13286 7.4125C3.70451 9.26875 2.82919 12.0344 2.82919 13.9469C2.82919 14.5375 2.91299 15.1188 2.96886 15.7094C3.0744 15.8281 3.02163 15.8156 3.18304 15.7563C4.74744 13.6 4.69157 13.1781 5.39928 10.3562C5.78107 11.0875 6.76814 11.4812 7.55034 11.4812C10.8468 11.4812 12.3274 8.24688 12.3274 5.33125C12.3274 2.22813 9.66415 0.203125 6.7402 0.203125Z"
                                 fill="black" />
                         </g>
                         <defs>
-                            <clipPath id="clip0_190_1618">
+                            <clipPath id="clip0_52_195">
                                 <rect width="11.9193" height="16" fill="white" transform="translate(0.408081)" />
                             </clipPath>
                         </defs>
                     </svg>
+
                 </a>
                 <a href="#" class="footer-logo"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_190_1614)">
+                        <g clip-path="url(#clip0_52_191)">
                             <path class="footer-logo-sign"
                                 d="M14.4181 4.74107C14.4281 4.88319 14.4281 5.02535 14.4281 5.16747C14.4281 9.50247 11.1509 14.4974 5.16096 14.4974C3.31558 14.4974 1.60132 13.9593 0.159302 13.0253C0.421495 13.0558 0.673569 13.0659 0.94585 13.0659C2.46851 13.0659 3.8702 12.5482 4.98953 11.6649C3.5576 11.6345 2.3576 10.6903 1.94415 9.39081C2.14585 9.42125 2.34751 9.44156 2.5593 9.44156C2.85172 9.44156 3.14418 9.40094 3.41643 9.32991C1.92401 9.02531 0.80465 7.70553 0.80465 6.11163V6.07103C1.23825 6.31469 1.74249 6.46697 2.2769 6.48725C1.39959 5.89841 0.824826 4.89335 0.824826 3.75628C0.824826 3.14716 0.98614 2.58878 1.26851 2.10147C2.87187 4.09131 5.28195 5.39078 7.98443 5.53294C7.93403 5.28928 7.90376 5.0355 7.90376 4.78169C7.90376 2.97457 9.35586 1.5025 11.1609 1.5025C12.0987 1.5025 12.9457 1.89844 13.5407 2.53803C14.2768 2.39591 14.9827 2.12178 15.6079 1.74616C15.3659 2.5076 14.8516 3.14719 14.176 3.55325C14.8315 3.48222 15.4668 3.29944 16.0516 3.04566C15.608 3.69538 15.0533 4.27403 14.4181 4.74107Z"
                                 fill="black" />
                         </g>
                         <defs>
-                            <clipPath id="clip0_190_1614">
+                            <clipPath id="clip0_52_191">
                                 <rect width="15.8924" height="16" fill="white" transform="translate(0.159302)" />
                             </clipPath>
                         </defs>
                     </svg>
+
                 </a>
             </div>
         </div>
     </footer>
-
-
 
 </body>
 
