@@ -41,6 +41,8 @@ p {
     line-height: normal;
 }
 
+
+
 /* -------------------------------------- */
 
 .title {
@@ -409,6 +411,7 @@ ul {
     background-blend-mode: overlay;
     height: 448px;
     background-size: cover;
+
 }
 
 .register_block {
@@ -457,6 +460,7 @@ ul {
 
 .register-form {
     padding-top: 150px;
+    padding-right: 70px;
     display: flex;
     flex-direction: column;
     text-align: center;

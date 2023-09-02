@@ -5,6 +5,9 @@ a {
     text-decoration: none;
 }
 
+// details summary::-webkit-details-marker {
+//     display: none;
+// }
 
 .arrivals {
     @include flexFull;
@@ -35,7 +38,6 @@ a {
 
 .carousel {
     background-color: $pictureBoxBackground;
-    // height: 777px;
 
     &-inner {
         z-index: 1;
@@ -63,18 +65,18 @@ a {
 }
 
 
+
+.product_description-empty {
+    // top: 130vh;
+    max-width: 1600px;
+    height: 76px;
+    position: absolute;
+    background-color: black;
+    z-index: 0;
+}
+
 .product_description {
     background-color: $bodyBackground;
-
-
-    &-empty {
-        top: 50vh;
-        width: 1400px;
-        position: absolute;
-        background-color: black;
-        z-index: 10;
-        // background-color: $pictureBoxBackground;
-    }
 
     &-box {
         text-align: center;
@@ -103,26 +105,77 @@ a {
     &-price {
         @include fontStyle (24px, 300, $mainTextColor: $mainColor);
     }
+}
 
-    .product_description-sorting_menu {
-        @include flexFull;
-        @include fontStyle (14px, 400);
-        gap: 42px;
-        padding: 60px 0 48px 0;
+
+.description-sorting {
+    position: relative;
+    @include flexFull;
+    @include fontStyle (14px, 400);
+    gap: 42px;
+    padding: 60px 0 48px 0;
+
+    &-menu-icon {
+        margin-left: 9px;
     }
 
-    .add_cart-button {
-        background-color: #FFFFFF;
-        border: 1px solid $mainColor;
+    &-menu-box {
+        position: absolute;
+        background: #FFF;
+        box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+        padding: 7px 30px 11px 9px;
+    }
+
+    &-menu-box-color {
+        width: 150px;
+        position: absolute;
+        background: #FFF;
+        box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+        padding: 7px 30px 11px 9px;
+    }
+
+
+    %userSelect {
+        user-select: none;
+        list-style: none;
+    }
+
+    &-menu-colortitle {
+        @extend %userSelect;
+    }
+
+    &-menu-sizetitle {
+        @extend %userSelect;
+    }
+
+    &-menu-pricetitle {
+        @extend %userSelect;
+    }
+
+    &-menu-check {
+        display: flex;
+        align-items: center;
+        gap: 9px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+.add_cart-button {
+    background-color: #FFFFFF;
+    border: 1px solid $mainColor;
+}
+
 
 .section_bottom {
     padding: 129px 0;
     margin: 0 !important;
-}
-
-.register_block {
-    justify-content: center !important;
-    gap: 350px;
 }
