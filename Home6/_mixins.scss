@@ -20,3 +20,15 @@
     line-height: $lineHeight;
     color: $mainTextColor;
 }
+
+@mixin bigButtons {
+    color: $mainColor;
+    &:hover {
+        background-color: $mainColor;
+        stroke-width: 1px;
+        stroke: $mainColor;
+        transition: 0, 3s;
+        color: white;
+    }
+
+}

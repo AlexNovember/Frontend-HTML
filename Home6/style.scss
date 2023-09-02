@@ -1,6 +1,8 @@
 @import 'vars';
-@import 'product';
 @import "mixins";
+@import 'header';
+@import 'menu';
+@import 'product';
 
 
 
@@ -43,110 +45,8 @@ p {
 
 
 
-/* -------------------------------------- */
-
-.title {
-    background: #222222;
-
-}
-
-.title_menu {
-    min-height: 75px;
-    background: #222222;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.left_menu {
-    display: flex;
-    align-items: flex-end;
-    gap: 41px;
-}
-
-.right_menu {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.topmenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.munu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 /* -------menu-------------- */
 
-ul {
-    list-style: none;
-}
-
-.topmenu {
-    margin-bottom: 0;
-}
-
-.submenu {
-    background: white;
-    list-style-type: none;
-    position: absolute;
-    right: 0px;
-    max-width: 232px;
-    margin-top: 25px;
-    z-index: 3;
-    padding: 32px;
-    transform: scaleY(0);
-    transform-origin: 0 0;
-    transition: .5s ease-in-out;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
-}
-
-.menu-main-title {
-    font-size: 14px;
-    font-weight: 700;
-    padding-bottom: 4px;
-}
-
-.menu-title {
-    color: #F16D7F;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 20px 0 1px 0;
-}
-
-.menu-links {
-    padding: 11px 0 0 21px;
-    color: #6F6E6E;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.submenu a {
-    color: black;
-}
-
-.topmenu>li:hover .submenu {
-    transform: scaleY(1);
-}
-
-.menu:hover .menu-icon {
-    fill: #F16D7F;
-}
-
-.icons:hover .menu-icon {
-    fill: #F16D7F;
-}
-
-.search-icon:hover .menu-icon {
-    fill: #F16D7F;
-}
 
 /* --------------------------------------- */
 
@@ -352,17 +252,17 @@ ul {
 .browse_text {
     display: inline-flex;
     align-items: flex-start;
-    color: #FF6A6A;
+    @include bigButtons;
     padding: 15px 39px;
 }
 
-.browse_text:hover {
-    background-color: #F16D7F;
-    stroke-width: 1px;
-    stroke: #FF6A6A;
-    transition: 0, 3s;
-    color: white;
-}
+// .browse_text:hover {
+//     background-color: #F16D7F;
+//     stroke-width: 1px;
+//     stroke: #FF6A6A;
+//     transition: 0, 3s;
+//     color: white;
+// }
 
 .why {
     display: flex;
