@@ -53,9 +53,15 @@ a {
   width: 31px;
   left: 96%;
 }
+.carousel-control-next:hover .arrow-color {
+  fill: #F16D7F;
+}
 .carousel-control-prev {
   width: 31px;
   left: 0;
+}
+.carousel-control-prev:hover .arrow-color {
+  fill: #F16D7F;
 }
 
 .product_description-empty {

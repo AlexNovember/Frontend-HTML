@@ -57,11 +57,19 @@ a {
     &-control-next {
         width: 31px;
         left: 96%;
+
+        &:hover .arrow-color {
+            fill: $mainColor;
+        }
     }
 
     &-control-prev {
         width: 31px;
         left: 0;
+
+        &:hover .arrow-color {
+            fill: $mainColor;
+        }
     }
 }
 
