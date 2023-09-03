@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .center {
+        padding: 0 calc(50vw - 367px);
+    }
+
+    .center_top {
+        padding: 0 calc(50vw - 386px);
+    }
+
+    .board {
+        padding: 0 16px;
+    }
+
+    .title {
+        min-height: 74px;
+    }
+
+    .choice {
+        gap: 19px;
+        margin: 64px 0 110px 0;
+    }
+
+    .section_bottom {
+        grid-template-columns: repeat(2, 2fr);
+        gap: 16px;
+        margin: 72px 0 32px 0;
+    }
+
+    .items_up {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items_about {
+        gap: 13px;
+        padding: 24px 29px 20px 16px;
+    }
+
+    .browse {
+        margin-bottom: 70px;
+    }
+
+    .box_red_line {
+        padding-left: 39px;
+    }
+
+    .main_text {
+        font-size: 44px;
+    }
+
+    .bottom_text,
+    .text_red {
+        font-size: 24px;
+    }
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #222224;
+        color: #FBFBFB;
+        padding: 48px 0 64px 0;
+        gap: 30px;
+    }
+
+    .register {
+        background-image: url(img/background700.png);
+        height: 693px;
+    }
+
+    .register_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .register-info {
+        padding-top: 54px;
+    }
+
+    .register-form {
+        padding-top: 48px;
+    }
+
+    .input-form-inputs {
+        justify-content: center;
+    }
+
+}

@@ -4,45 +4,52 @@
 
 
 
-.brand {
-    background-color: $brandColor;
+.brand_info {
     display: flex;
-
-    &_left {
-        width: 50%;
-        @include flexFull;
-    }
-
-    &_right {
-        width: 50%;
-        display: flex;
-        gap: 16px;
-    }
-
-    &_red-line {
-        display: flex;
-        align-items: center;
-        padding-left: 63px;
-    }
-
-    .brand_info {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-        &-main-text {
-            @include fontStyle (48px, 900, $mainTextColor: black);
-        }
-
-        &-bottom-text {
-            @include fontStyle (32px, 700, $mainTextColor: black);
-
-            &-red {
-                color: $mainColor;
-            }
-        }
-    }
+    justify-content: center;
+    flex-direction: column;
 }
+
+.brand {
+    background-color: #F1E4E6;
+    display: flex;
+}
+
+.brand_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.brand_right {
+    width: 50%;
+    display: flex;
+    gap: 16px;
+}
+
+.box_red_line {
+    display: flex;
+    align-items: center;
+    padding-left: 63px;
+}
+
+.main_text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bottom_text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text_red {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
 
 
 .choice {

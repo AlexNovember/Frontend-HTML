@@ -1,0 +1,110 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .center {
+        padding: 0 calc(50vw - 171.5px);
+    }
+
+    .center_top {
+        padding: 0 calc(50vw - 187.5px);
+    }
+
+
+    .icons,
+    .brand_left,
+    .text_upper_big {
+        display: none;
+    }
+
+    .brand {
+        min-height: 383px;
+    }
+
+    .brand_right {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box_red_line {
+        padding-left: 0;
+    }
+
+    .main_text {
+        font-size: 38px;
+    }
+
+    .bottom_text,
+    .text_red {
+        font-size: 20px;
+    }
+
+    .choice {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+        margin: 64px 0;
+    }
+
+    .big {
+        grid-column: span 1;
+        display: grid;
+        justify-items: center;
+        align-content: baseline;
+        align-items: center;
+    }
+
+    .section_bottom {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .items_up:hover {
+        transform: none;
+    }
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #222224;
+        color: #FBFBFB;
+        padding: 48px 0 81px 0;
+        gap: 30px;
+    }
+
+    .register {
+        height: 550px;
+        background-position: top left;
+    }
+
+    .register_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .register-info {
+        padding-top: 64px;
+    }
+
+    .register-form {
+        padding-top: 59px;
+        gap: 22px;
+    }
+
+    .input-form-inputs {
+        justify-content: center;
+    }
+
+    .footer-items {
+        height: 143px;
+        flex-direction: column-reverse;
+        padding: 43px 0 9px 0;
+    }
+
+}
