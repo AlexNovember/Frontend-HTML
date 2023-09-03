@@ -2,8 +2,10 @@
 @import "mixins";
 @import 'header';
 @import 'menu';
+@import 'footer';
 @import 'product';
 @import 'catalog';
+
 
 
 
@@ -402,49 +404,6 @@ p {
     cursor: pointer;
 }
 
-.footer {
-    background-color: $headTitleColor;
-}
-
-.footer-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 79px;
-    background-color: #222224;
-    color: #FBFBFB;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.rights {
-    color: #FBFBFB;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.footer-logos {
-    display: flex;
-    gap: 7px;
-}
-
-.footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    background-color: white;
-    transition: 0.3s;
-}
-
-.footer-logo:hover {
-    background-color: #F16D7F;
-}
-
-.footer-logo:hover .footer-logo-sign {
-    fill: white;
-}
 
 
 
