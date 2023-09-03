@@ -171,7 +171,7 @@ a {
   fill: #F16D7F;
 }
 
-.dd {
+.empty_block {
   position: relative;
   display: flex;
   justify-content: center;
@@ -179,8 +179,7 @@ a {
   align-items: normal;
   z-index: 0;
 }
-
-.product_description-empty {
+.empty_block-content {
   width: 100%;
   margin-left: calc(50% - 50vw);
   height: 70px;
@@ -303,6 +302,11 @@ a {
 
 .section_bottom {
   margin-bottom: 129px;
+}
+
+.filter_box {
+  background-color: aqua;
+  height: 100px;
 }
 
 * {

@@ -71,20 +71,20 @@ a {
     }
 }
 
-.dd {
+.empty_block {
     position: relative;
     @include flexFull;
     align-items: normal;
     z-index: 0;
-}
 
-.product_description-empty {
-    width: 100%;
-    margin-left: calc(50% - 50vw);
-    height: 70px;
-    position: absolute;
-    background-color: $pictureBoxBackground;
-    z-index: 0;
+    &-content {
+        width: 100%;
+        margin-left: calc(50% - 50vw);
+        height: 70px;
+        position: absolute;
+        background-color: $pictureBoxBackground;
+        z-index: 0;
+    }
 }
 
 .product_description {

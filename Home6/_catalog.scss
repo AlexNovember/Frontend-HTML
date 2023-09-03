@@ -1,6 +1,10 @@
 @import 'vars';
 @import "mixins";
 
+.filter_box {
+    background-color: aqua;
+    height: 100px;
+}
 
 // .items_up:last-child {
 //     display: none;
