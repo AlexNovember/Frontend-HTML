@@ -2,25 +2,32 @@
 @import "mixins";
 
 .filter-sort {
+    position: relative;
     @include flexFull;
-    justify-content: flex-start;
+    justify-content: normal;
+    align-items: normal;
     @include fontStyle (14px, 600);
-    gap: 304px;
-    padding: 51px 0 64px 15px;
+    gap: 374px;
+    padding: 51px 0 64px 0;
 }
 
 .description-sorting {
     padding: 0;
-
-    &-left {
-        align-items: center;
-    }
-
-
 }
 
 
 .description-sorting-menu-filter {
+    width: 360px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 13px 16px 16px;
+    top: 39px;
+
+    &[open] {
+        background: #FFF;
+        box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+    }
+
     &[open] .description-sorting-menu-title {
         color: $mainColor;
     }
@@ -28,18 +35,23 @@
     &[open] path {
         fill: $mainColor;
     }
-
-
 }
 
 
-.description-sorting-menu-box-filter {
-    width: 360px;
-    position: absolute;
-    background: #FFF;
-    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-    padding: 7px 30px 11px 9px;
-}
+// .description-sorting-menu-box-filter {
+//     width: 360px;
+//     position: absolute;
+//     box-sizing: border-box;
+//     top: 150px;
+//     background: #FFF;
+//     box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+//     padding: 7px 30px 11px 9px;
+
+//     &[open] .description-sorting-box-fliter {
+//         align-items: normal;
+//         background: #FFF;
+//     }
+// }
 
 
 
