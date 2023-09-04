@@ -1,9 +1,53 @@
 @import 'vars';
 @import "mixins";
 
-.filter_box {
-    background-color: aqua;
-    height: 100px;
+.filter-sort {
+    @include flexFull;
+    justify-content: flex-start;
+    @include fontStyle (14px, 600);
+    gap: 304px;
+    padding: 51px 0 64px 15px;
+}
+
+.description-sorting {
+    padding: 0;
+
+    &-left {
+        align-items: center;
+    }
+
+    &-title {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+
+.description-sorting-menu-filter {
+    &[open] .description-sorting-menu-title {
+        color: $mainColor;
+    }
+
+    &[open] path {
+        fill: $mainColor;
+    }
+}
+
+
+
+
+
+
+.section_bottom {
+    margin: 0;
+}
+
+
+.roll_menu {
+    background-color: aquamarine;
+    height: 200px;
 }
 
 // .items_up:last-child {

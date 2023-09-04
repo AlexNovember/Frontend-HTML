@@ -157,24 +157,6 @@ h5 {
         padding: 7px 30px 11px 9px;
     }
 
-
-    %userSelect {
-        user-select: none;
-        list-style: none;
-    }
-
-    &-menu-colortitle {
-        @extend %userSelect;
-    }
-
-    &-menu-sizetitle {
-        @extend %userSelect;
-    }
-
-    &-menu-pricetitle {
-        @extend %userSelect;
-    }
-
     &-menu-check {
         display: flex;
         align-items: center;
