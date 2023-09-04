@@ -741,7 +741,7 @@ h5 {
   font-weight: 600;
   line-height: normal;
   color: #6F6E6E;
-  gap: 374px;
+  gap: 385px;
   padding: 51px 0 64px 0;
 }
 
@@ -760,11 +760,30 @@ h5 {
   background: #FFF;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
 }
-.description-sorting-menu-filter[open] .description-sorting-menu-title {
+.description-sorting-menu-filter[open] .filter_heading {
   color: #F16D7F;
 }
 .description-sorting-menu-filter[open] path {
   fill: #F16D7F;
+}
+
+.filter_heading {
+  margin-top: 16px;
+}
+
+.filter_link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 24px 0;
+}
+
+.filter_link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: #6F6E6E;
+  color: #6F6E6E;
 }
 
 .section_bottom {

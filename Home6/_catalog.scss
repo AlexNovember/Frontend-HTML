@@ -7,7 +7,7 @@
     justify-content: normal;
     align-items: normal;
     @include fontStyle (14px, 600);
-    gap: 374px;
+    gap: 385px;
     padding: 51px 0 64px 0;
 }
 
@@ -23,12 +23,13 @@
     padding: 13px 16px 16px;
     top: 39px;
 
+
     &[open] {
         background: #FFF;
         box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
     }
 
-    &[open] .description-sorting-menu-title {
+    &[open] .filter_heading {
         color: $mainColor;
     }
 
@@ -37,28 +38,31 @@
     }
 }
 
+.filter_heading {
+    margin-top: 16px;
+}
 
-// .description-sorting-menu-box-filter {
-//     width: 360px;
-//     position: absolute;
-//     box-sizing: border-box;
-//     top: 150px;
-//     background: #FFF;
-//     box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-//     padding: 7px 30px 11px 9px;
+.filter_link-box {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 24px 0;
+}
 
-//     &[open] .description-sorting-box-fliter {
-//         align-items: normal;
-//         background: #FFF;
-//     }
-// }
+.filter_link {
+    @include fontStyle (14px, 400, $mainTextColor);
+}
+
+
+
+
+
 
 
 
 .section_bottom {
     margin: 0;
 }
-
 
 .roll_menu {
     background-color: aquamarine;
