@@ -19,6 +19,7 @@
 .description-sorting-menu-filter {
     width: 360px;
     position: absolute;
+    z-index: 5;
     box-sizing: border-box;
     padding: 13px 16px 16px;
     top: 39px;
@@ -38,19 +39,31 @@
     }
 }
 
-.filter_heading {
-    margin-top: 16px;
+.filter_head {
+    padding: 8px 11px 11px 11px;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 5px solid $mainColor;
 }
+
+.filter_item {
+    margin-top: 16px;
+
+    &[open] .filter_head {
+        color: $mainColor;
+    }
+}
+
 
 .filter_link-box {
     display: flex;
     flex-direction: column;
     gap: 11px;
-    padding: 24px 0;
+    padding: 24px 16px;
 }
 
 .filter_link {
     @include fontStyle (14px, 400, $mainTextColor);
+
 }
 
 
