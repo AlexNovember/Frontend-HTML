@@ -28,10 +28,18 @@
     &[open] path {
         fill: $mainColor;
     }
+
+
 }
 
 
-
+.description-sorting-menu-box-filter {
+    width: 360px;
+    position: absolute;
+    background: #FFF;
+    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+    padding: 7px 30px 11px 9px;
+}
 
 
 
