@@ -749,9 +749,6 @@ h5 {
 .description-sorting-left {
   align-items: center;
 }
-.description-sorting-title {
-  flex-wrap: nowrap;
-}
 
 .description-sorting-menu-filter[open] .description-sorting-menu-title {
   color: #F16D7F;
