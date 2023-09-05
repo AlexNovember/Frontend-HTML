@@ -557,6 +557,11 @@ h5 {
   margin-bottom: 0;
 }
 
+.description-sorting-menu-colortitle:hover {
+  transform: scale(1.1);
+  color: #F16D7F;
+}
+
 .arrivals {
   display: flex;
   justify-content: center;
@@ -711,6 +716,16 @@ h5 {
 }
 .description-sorting-menu-colortitle {
   margin-bottom: 5px;
+  transition-duration: 0.3s;
+}
+.description-sorting-menu-colortitle:hover .description-sorting-menu-icon path {
+  fill: #F16D7F;
+}
+.description-sorting-menu-colortitle[open] {
+  color: #F16D7F;
+}
+.description-sorting-menu-colortitle[open] path {
+  fill: #F16D7F;
 }
 .description-sorting-menu-sizetitle {
   margin-bottom: 5px;

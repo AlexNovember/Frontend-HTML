@@ -13,6 +13,11 @@ h5 {
     margin-bottom: 0;
 }
 
+%filterButtonsEffects {
+    transform: scale(1.1);
+    color: $mainColor;
+}
+
 
 .arrivals {
     @include flexFull;
@@ -159,7 +164,26 @@ h5 {
 
     &-menu-colortitle {
         margin-bottom: 5px;
+        transition-duration: 0.3s;
+
+
+        &:hover {
+            @extend %filterButtonsEffects;
+        }
+
+        &:hover .description-sorting-menu-icon path {
+            fill: $mainColor;
+        }
+
+        &[open] {
+            color: $mainColor;
+        }
+
+        &[open] path {
+            fill: $mainColor;
+        }
     }
+
 
     &-menu-sizetitle {
         margin-bottom: 5px;
