@@ -1,6 +1,7 @@
 @import 'vars';
 @import "mixins";
 
+
 .filter-sort {
     position: relative;
     @include flexFull;
@@ -9,10 +10,6 @@
     @include fontStyle (14px, 600);
     gap: 385px;
     padding: 51px 0 64px 0;
-}
-
-.description-sorting {
-    padding: 0;
 }
 
 
@@ -79,12 +76,9 @@
     height: 43px;
     border: 1px solid #EBEBEB;
     margin: 48px 0 96px;
+    @include flexFull;
 }
 
 // .items_up:last-child {
 //     display: none;
-// }
-
-// .goods-section {
-//     margin-bottom: 48px;
-// }
+// } для медиа-запроса

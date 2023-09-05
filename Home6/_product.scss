@@ -103,7 +103,8 @@ h5 {
         background-color: #FFF;
         text-align: center;
         border: 1px solid;
-        padding: 64px 0;
+        margin-bottom: 129px;
+        padding: 64px 0 64px;
         border: 1px solid #EAEAEA;
         z-index: 10;
     }
@@ -127,6 +128,11 @@ h5 {
 
     &-price {
         @include fontStyle (24px, 300, $mainTextColor: $mainColor);
+        margin-bottom: 65px;
+    }
+
+    &-line {
+        margin-bottom: 65px;
     }
 }
 
@@ -136,7 +142,8 @@ h5 {
     @include flexFull;
     @include fontStyle (14px, 400);
     gap: 42px;
-    padding: 60px 0 48px 0;
+
+
 
     &-menu-icon {
         margin-left: 9px;
@@ -178,13 +185,13 @@ h5 {
     }
 }
 
-
 .add_cart-button {
     @include bigButtons;
     background-color: #FFFFFF;
     border: 1px solid $mainColor;
     padding: 12px 57px 12px 24px;
     @include fontStyle(16px, $mainTextColor: $mainColor);
+    margin-top: 48px;
 
     &:hover {
         path {
@@ -198,6 +205,6 @@ h5 {
 
 }
 
-.section_bottom {
-    margin-bottom: 129px;
+.goods_section-product {
+    margin-bottom: 128px;
 }
