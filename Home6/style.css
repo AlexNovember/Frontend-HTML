@@ -688,6 +688,15 @@ h5 {
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   padding: 7px 30px 11px 9px;
 }
+.description-sorting-menu-colortitle {
+  margin-bottom: 5px;
+}
+.description-sorting-menu-sizetitle {
+  margin-bottom: 5px;
+}
+.description-sorting-menu-pricetitle {
+  margin-bottom: 5px;
+}
 .description-sorting-menu-box-color {
   width: 150px;
   position: absolute;
