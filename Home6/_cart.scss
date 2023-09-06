@@ -3,7 +3,6 @@
     grid-template-columns: 652px 359px;
     gap: 128px;
     padding: 96px 0;
-
 }
 
 .goods_in_cart-left-block {
@@ -23,7 +22,9 @@
 
     &-item {
         position: relative;
-        @include gridTable (2, 60px, 6px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         padding: 22px 97px 62px 32px;
         @include fontStyle (22px)
     }
@@ -35,6 +36,10 @@
 
     &-item-name-box {
         display: flex;
+    }
+
+    &-item-quantity-input {
+        width: 44px;
     }
 }
 

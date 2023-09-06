@@ -876,9 +876,9 @@ h5 {
 }
 .goods_in_cart-left-block-item {
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(2, 60px);
-  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 22px 97px 62px 32px;
   font-size: 22px;
   font-style: normal;
@@ -896,6 +896,9 @@ h5 {
 }
 .goods_in_cart-left-block-item-name-box {
   display: flex;
+}
+.goods_in_cart-left-block-item-quantity-input {
+  width: 44px;
 }
 
 .goods_in_cart-right-block {
