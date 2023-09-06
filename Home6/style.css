@@ -894,15 +894,57 @@ h5 {
   line-height: normal;
   color: #222224;
 }
-.goods_in_cart-left-block-item-name-box {
-  display: flex;
+.goods_in_cart-left-block-item-price span {
+  color: #F16D7F;
 }
 .goods_in_cart-left-block-item-quantity-input {
   width: 44px;
+  height: 24.949px;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+  margin-left: 24px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #656565;
 }
 
 .goods_in_cart-right-block {
   border: 1px solid #000;
+}
+
+.goods_in_cart-box-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button {
+  border: 2px solid #A4A4A4;
+  padding: 17px 40px;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button:hover {
+  background-color: #A4A4A4;
+  transition: 0.3s;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button:hover:hover .goods_in_cart-box-button-clear {
+  color: white;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button:hover:hover .goods_in_cart-box-button-continue {
+  color: white;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button-clear {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #000000;
+}
+.goods_in_cart-box-buttons .goods_in_cart-box-button-continue {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #000000;
 }
 
 .closeModal {

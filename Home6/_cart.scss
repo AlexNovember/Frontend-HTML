@@ -34,12 +34,17 @@
         @include fontStyle (24px, $mainTextColor: $headTitleColor)
     }
 
-    &-item-name-box {
-        display: flex;
+    &-item-price span {
+        color: $mainColor;
     }
 
     &-item-quantity-input {
         width: 44px;
+        height: 24.949px;
+        text-align: center;
+        border: 1px solid #EAEAEA;
+        margin-left: 24px;
+        @include fontStyle (18px, $mainTextColor: #656565);
     }
 }
 
@@ -48,7 +53,37 @@
     border: 1px solid #000;
 }
 
+.goods_in_cart-box-buttons {
+    display: flex;
+    justify-content: space-between;
 
+    .goods_in_cart-box-button {
+        border: 2px solid #A4A4A4;
+        padding: 17px 40px;
+
+        &:hover {
+            background-color: #A4A4A4;
+            transition: 0.3s;
+
+            &:hover .goods_in_cart-box-button-clear {
+                color: white;
+            }
+
+            &:hover .goods_in_cart-box-button-continue {
+                color: white;
+            }
+        }
+
+        &-clear {
+            @include fontStyle (14px, 300, $mainTextColor: #000000);
+
+        }
+
+        &-continue {
+            @include fontStyle (14px, 300, $mainTextColor: #000000);
+        }
+    }
+}
 
 
 
