@@ -109,8 +109,6 @@
     }
 
     &-input {
-        width: 358px;
-        height: 45px;
         @include fontStyle (18px, 400);
         padding: 13px 17px 16px;
         color: $mainColor;
