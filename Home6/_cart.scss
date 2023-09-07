@@ -5,7 +5,7 @@
 .goods_in_cart-box {
     display: grid;
     grid-template-columns: 652px 359px;
-    gap: 72px;
+    gap: 128px;
     padding: 96px 0;
 }
 
@@ -55,6 +55,7 @@
 .goods_in_cart-box-buttons {
     display: flex;
     justify-content: space-between;
+    width: 652px;
 
     .goods_in_cart-box-button {
         border: 1px solid #A4A4A4;
@@ -87,10 +88,7 @@
 .goods_in_cart-right-block {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000;
     gap: 21px;
-    margin-left: 56px;
-    width: 360px;
 
     &-title {
         @include fontStyle (16px, 300, $mainTextColor: #222222);
@@ -123,6 +121,7 @@
         flex-direction: column;
         background-color: #F5F3F3;
         padding: 39px 34px 42px 44px;
+        margin-top: 57px;
 
         &-subtotal {
             @include fontStyle (11px);
@@ -130,7 +129,7 @@
         }
 
         &-subtotal span {
-            padding-left: 10px;
+            margin-left: 10px;
         }
 
         &-grundtotal {
@@ -146,7 +145,6 @@
         }
 
         &-line {
-            // display: block;
             width: 275px;
             color: #E2E2E2;
             margin: 21px 0 17px;
@@ -155,9 +153,13 @@
         &-link {
             background-color: $mainColor;
             padding: 15px 42px;
-            color: white;
+            @include fontStyle ($mainTextColor: white);
+            @include bigButtons;
         }
+    }
 
+    ::-webkit-input-placeholder {
+        @include fontStyle (13px, 300, $mainTextColor: #B1B1B1);
     }
 }
 
@@ -174,9 +176,7 @@
     background-color: #F5F3F3;
 }
 
-::-webkit-input-placeholder {
-    @include fontStyle (13px, 300, $mainTextColor: #B1B1B1);
-}
+
 
 
 
@@ -185,9 +185,7 @@
 .closeModal {
     position: absolute;
     top: 10px;
-    right: -40px;
-    width: 24px;
-    height: 24px;
+    right: -20px;
     opacity: 0.8;
     cursor: pointer;
     transition: opacity ease 0.5s;
@@ -203,7 +201,6 @@
     content: '';
     position: absolute;
     top: 20px;
-    display: block;
     width: 24px;
     height: 3px;
     background: #000;

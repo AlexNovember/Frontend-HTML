@@ -865,7 +865,7 @@ h5 {
 .goods_in_cart-box {
   display: grid;
   grid-template-columns: 652px 359px;
-  gap: 72px;
+  gap: 128px;
   padding: 96px 0;
 }
 
@@ -921,6 +921,7 @@ h5 {
 .goods_in_cart-box-buttons {
   display: flex;
   justify-content: space-between;
+  width: 652px;
 }
 .goods_in_cart-box-buttons .goods_in_cart-box-button {
   border: 1px solid #A4A4A4;
@@ -954,10 +955,7 @@ h5 {
 .goods_in_cart-right-block {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
   gap: 21px;
-  margin-left: 56px;
-  width: 360px;
 }
 .goods_in_cart-right-block-title {
   font-size: 16px;
@@ -998,6 +996,7 @@ h5 {
   flex-direction: column;
   background-color: #F5F3F3;
   padding: 39px 34px 42px 44px;
+  margin-top: 57px;
 }
 .goods_in_cart-right-block-checkout-subtotal {
   font-size: 11px;
@@ -1008,7 +1007,7 @@ h5 {
   margin-bottom: 12px;
 }
 .goods_in_cart-right-block-checkout-subtotal span {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 .goods_in_cart-right-block-checkout-grundtotal {
   color: #F16D7F;
@@ -1035,7 +1034,26 @@ h5 {
 .goods_in_cart-right-block-checkout-link {
   background-color: #F16D7F;
   padding: 15px 42px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   color: white;
+  color: #F16D7F;
+}
+.goods_in_cart-right-block-checkout-link:hover {
+  background-color: #F16D7F;
+  stroke-width: 1px;
+  stroke: #F16D7F;
+  transition: 0, 3s;
+  color: white;
+}
+.goods_in_cart-right-block ::-webkit-input-placeholder {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #B1B1B1;
 }
 
 .value_box {
@@ -1051,20 +1069,10 @@ h5 {
   background-color: #F5F3F3;
 }
 
-::-webkit-input-placeholder {
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  color: #B1B1B1;
-}
-
 .closeModal {
   position: absolute;
   top: 10px;
-  right: -40px;
-  width: 24px;
-  height: 24px;
+  right: -20px;
   opacity: 0.8;
   cursor: pointer;
   transition: opacity ease 0.5s;
@@ -1078,7 +1086,6 @@ h5 {
   content: "";
   position: absolute;
   top: 20px;
-  display: block;
   width: 24px;
   height: 3px;
   background: #000;
