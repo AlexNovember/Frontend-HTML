@@ -557,7 +557,7 @@ h5 {
   margin-bottom: 0;
 }
 
-.description-sorting-menu-colortitle:hover {
+.description-sorting-menu-pricetitle:hover, .description-sorting-menu-sizetitle:hover, .description-sorting-menu-colortitle:hover {
   transform: scale(1.03);
   color: #F16D7F;
 }
@@ -723,9 +723,17 @@ h5 {
 }
 .description-sorting-menu-sizetitle {
   margin-bottom: 5px;
+  transition-duration: 0.3s;
+}
+.description-sorting-menu-sizetitle:hover .description-sorting-menu-icon path {
+  fill: #F16D7F;
 }
 .description-sorting-menu-pricetitle {
   margin-bottom: 5px;
+  transition-duration: 0.3s;
+}
+.description-sorting-menu-pricetitle:hover .description-sorting-menu-icon path {
+  fill: #F16D7F;
 }
 .description-sorting-menu-box-color {
   width: 150px;
