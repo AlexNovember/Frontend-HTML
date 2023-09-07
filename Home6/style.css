@@ -865,8 +865,9 @@ h5 {
 .goods_in_cart-box {
   display: grid;
   grid-template-columns: 652px 359px;
-  gap: 128px;
-  padding: 96px 0;
+  gap: 72px;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 .goods_in_cart-left-block {
@@ -876,11 +877,16 @@ h5 {
   flex-direction: column;
 }
 .goods_in_cart-left-block-img {
+  width: 262px;
   height: 306px;
 }
 .goods_in_cart-left-block-items {
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   display: flex;
+  transition: 0.3s;
+}
+.goods_in_cart-left-block-items:hover {
+  transform: scale(1.02);
 }
 .goods_in_cart-left-block-item {
   position: relative;
@@ -922,14 +928,15 @@ h5 {
   display: flex;
   justify-content: space-between;
   width: 652px;
+  margin-bottom: 128px;
 }
 .goods_in_cart-box-buttons .goods_in_cart-box-button {
   border: 1px solid #A4A4A4;
   padding: 17px 40px;
+  transition: 0.3s;
 }
 .goods_in_cart-box-buttons .goods_in_cart-box-button:hover {
   background-color: #A4A4A4;
-  transition: 0.3s;
 }
 .goods_in_cart-box-buttons .goods_in_cart-box-button:hover:hover .goods_in_cart-box-button-clear {
   color: white;
@@ -968,17 +975,16 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-.goods_in_cart-right-block-country {
+.goods_in_cart-right-block-input {
   width: 358px;
   height: 45px;
-  stroke-width: 1px;
-  stroke: #A4A4A4;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #6F6E6E;
   padding: 13px 17px 16px;
+  color: #F16D7F;
 }
 .goods_in_cart-right-block-quote {
   border: 1px solid #A4A4A4;
@@ -990,6 +996,13 @@ h5 {
   line-height: normal;
   color: #6F6E6E;
   white-space: nowrap;
+  transition: 0.3s;
+}
+.goods_in_cart-right-block-quote:hover {
+  background-color: #F16D7F;
+  border: 1px solid #A4A4A4;
+  color: white;
+  border: 1px solid #F16D7F;
 }
 .goods_in_cart-right-block-checkout {
   display: flex;
@@ -1039,14 +1052,10 @@ h5 {
   font-weight: 400;
   line-height: normal;
   color: white;
-  color: #F16D7F;
+  transition: 0.3s;
 }
 .goods_in_cart-right-block-checkout-link:hover {
-  background-color: #F16D7F;
-  stroke-width: 1px;
-  stroke: #F16D7F;
-  transition: 0, 3s;
-  color: white;
+  background-color: #d1536e;
 }
 .goods_in_cart-right-block ::-webkit-input-placeholder {
   font-size: 13px;
