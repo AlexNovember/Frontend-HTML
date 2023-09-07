@@ -5,7 +5,7 @@
 .goods_in_cart-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 72px;
+    gap: min(52px);
     margin-top: 96px;
     margin-bottom: 72px;
 }
@@ -92,6 +92,7 @@
 }
 
 .goods_in_cart-right-block {
+    width: 360px;
     display: flex;
     flex-direction: column;
     gap: 21px;

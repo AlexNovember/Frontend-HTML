@@ -865,7 +865,7 @@ h5 {
 .goods_in_cart-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 72px;
+  gap: 52px;
   margin-top: 96px;
   margin-bottom: 72px;
 }
@@ -959,6 +959,7 @@ h5 {
 }
 
 .goods_in_cart-right-block {
+  width: 360px;
   display: flex;
   flex-direction: column;
   gap: 21px;
