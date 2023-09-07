@@ -1,6 +1,5 @@
 .arrivals-new-arrivals-cart {
     @include fontStyle (24px, $mainTextColor: $mainColor);
-    padding-left: 230px;
 }
 
 .goods_in_cart-box {
@@ -121,6 +120,26 @@
 
     &-checkout {
         background-color: #F5F3F3;
+    }
+
+    &-checkout {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &-subtotal {
+            @include fontStyle (11px);
+        }
+
+        &-grundtotal {
+            color: $mainColor;
+            @include fontStyle (16px, 300);
+        }
+
+        &-grundtotal span {
+            @include fontStyle (16px, 700);
+            color: $mainColor;
+        }
     }
 }
 
