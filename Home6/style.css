@@ -585,9 +585,15 @@ h5 {
   color: #F16D7F;
 }
 
+.active {
+  display: flex;
+}
+
 .carousel {
   background-color: #F7F7F7;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-inner {
   z-index: 1;
@@ -596,19 +602,19 @@ h5 {
   left: 25%;
   top: 0;
 }
-.carousel .d-block {
-  vertical-align: baseline;
-  background-color: #F7F7F7;
+.carousel-buttons {
+  display: flex;
 }
 .carousel-control-next {
-  width: 31px;
+  width: 47px;
   left: 96%;
+  justify-content: none;
 }
 .carousel-control-next:hover .arrow-color {
   fill: #F16D7F;
 }
 .carousel-control-prev {
-  width: 31px;
+  width: 47px;
   left: 0;
 }
 .carousel-control-prev:hover .arrow-color {

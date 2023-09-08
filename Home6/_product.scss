@@ -46,9 +46,14 @@ h5 {
 }
 
 
+.active {
+    display: flex;
+}
 .carousel {
     background-color: $pictureBoxBackground;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     &-inner {
         z-index: 1;
@@ -59,14 +64,14 @@ h5 {
         top: 0;
     }
 
-    .d-block {
-        vertical-align: baseline;
-        background-color: $pictureBoxBackground;
+    &-buttons {
+        display: flex;
     }
 
     &-control-next {
-        width: 31px;
+        width: 47px;
         left: 96%;
+        justify-content: none;
 
         &:hover .arrow-color {
             fill: $mainColor;
@@ -74,7 +79,7 @@ h5 {
     }
 
     &-control-prev {
-        width: 31px;
+        width: 47px;
         left: 0;
 
         &:hover .arrow-color {
