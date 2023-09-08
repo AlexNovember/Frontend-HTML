@@ -853,6 +853,10 @@ h5 {
   align-items: center;
 }
 
+input[type=text]:focus {
+  border: 1px solid #F16D7F;
+}
+
 .arrivals-new-arrivals-cart {
   font-size: 24px;
   font-style: normal;
