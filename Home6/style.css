@@ -870,7 +870,6 @@ input[type=text]:focus {
   grid-template-columns: 1fr 1fr;
   gap: 52px;
   margin-top: 96px;
-  margin-bottom: 72px;
 }
 
 .goods_in_cart-left-block {
