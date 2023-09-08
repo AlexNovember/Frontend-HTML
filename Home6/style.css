@@ -543,7 +543,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+ul {
   text-decoration: none;
   margin-bottom: 0;
 }
@@ -566,6 +567,9 @@ h5 {
   background-color: #F8F3F4;
   justify-content: space-between;
 }
+.arrivals_ul {
+  display: flex;
+}
 .arrivals-new-arrivals {
   font-size: 24px;
   font-style: normal;
@@ -576,12 +580,12 @@ h5 {
 .arrivals-link {
   color: #6F6E6E;
 }
-.arrivals-link:not(:last-child)::after {
+.arrivals_li:not(:last-child)::after {
   content: "/";
   padding-left: 8px;
   padding-right: 8px;
 }
-.arrivals-link-new {
+.arrivals_li:last-child .arrivals-link {
   color: #F16D7F;
 }
 
