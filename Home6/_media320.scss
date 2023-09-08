@@ -55,7 +55,18 @@
         &-menu-filter {
         padding: 0;
         }
-    }  
+
+        &-menu-box{
+            width: 60px;
+            
+            &-color {
+            width: 112px;
+            }
+        }
+    }
+        
+
+       
     
    .icon-big {
         margin:8px 0 0 0;
@@ -147,6 +158,10 @@
 
     .input-form-inputs {
         justify-content: center;
+    }
+
+    .right_left_slider {
+        margin-bottom: 64px;
     }
 
     .footer-items {

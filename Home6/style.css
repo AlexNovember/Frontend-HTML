@@ -1250,6 +1250,12 @@ input[type=text]:focus {
   .description-sorting-menu-filter {
     padding: 0;
   }
+  .description-sorting-menu-box {
+    width: 60px;
+  }
+  .description-sorting-menu-box-color {
+    width: 112px;
+  }
   .icon-big {
     margin: 8px 0 0 0;
     width: 37.5px;
@@ -1318,6 +1324,9 @@ input[type=text]:focus {
   }
   .input-form-inputs {
     justify-content: center;
+  }
+  .right_left_slider {
+    margin-bottom: 64px;
   }
   .footer-items {
     height: 143px;
