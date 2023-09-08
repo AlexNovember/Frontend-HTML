@@ -169,6 +169,7 @@ input[type=text]:focus {
         }
 
         &-link {
+            text-align: center;
             background-color: $mainColor;
             padding: 15px 42px;
             @include fontStyle ($mainTextColor: white);

@@ -1046,6 +1046,7 @@ input[type=text]:focus {
   margin: 21px 0 17px;
 }
 .goods_in_cart-right-block-checkout-link {
+  text-align: center;
   background-color: #F16D7F;
   padding: 15px 42px;
   font-size: 14px;
