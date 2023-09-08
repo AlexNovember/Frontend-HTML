@@ -1319,6 +1319,7 @@ input[type=text]:focus {
     padding-top: 64px;
   }
   .register-form {
+    padding-right: 0;
     padding-top: 59px;
     gap: 22px;
   }
