@@ -2,12 +2,11 @@
 
     .center {
         padding: 0 calc(50vw - 171.5px);
-    }
-
-    .center_top {
+        
+        &_top {
         padding: 0 calc(50vw - 187.5px);
+        }
     }
-
 
     .icons,
     .brand_left,
@@ -17,15 +16,17 @@
 
     .brand {
         min-height: 383px;
-    }
-
-    .brand_right {
+        
+        &_right {
         display: flex;
         width: 100%;
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        }
     }
+
+    
 
     .box_red_line {
         padding-left: 0;
@@ -65,9 +66,6 @@
         }
     }
         
-
-       
-    
    .icon-big {
         margin:8px 0 0 0;
         width: 37.5px;
@@ -92,7 +90,6 @@
     }
 
     .text_red
-
     .bottom_text,
     .text_red {
         font-size: 20px;
@@ -138,23 +135,28 @@
     .register {
         height: 550px;
         background-position: top left;
-    }
-
-    .register_block {
+        
+        &_block {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .register-info {
+        }
+        
+        &-info {
         padding-top: 64px;
-    }
-
-    .register-form {
+        }
+        
+        &-form {
         padding-right: 0;
         padding-top: 59px;
         gap: 22px;
     }
+}
+
+    
+
+    
+    
 
     .input-form-inputs {
         justify-content: center;
