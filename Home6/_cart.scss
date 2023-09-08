@@ -7,11 +7,14 @@ input[type=text]:focus {
     @include fontStyle (24px, $mainTextColor: $mainColor);
 }
 
+.goods_in_cart {
+    padding-top: 96px;
+}
+
 .goods_in_cart-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: min(52px);
-    margin-top: 96px;
 }
 
 .goods_in_cart-left-block {
@@ -96,7 +99,6 @@ input[type=text]:focus {
 }
 
 .goods_in_cart-right-block {
-    width: 360px;
     display: flex;
     flex-direction: column;
     gap: 21px;

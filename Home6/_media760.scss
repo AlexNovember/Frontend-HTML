@@ -16,6 +16,10 @@
         min-height: 74px;
     }
 
+    .description-sorting {
+        justify-content: flex-end;
+    }
+
     .choice {
         gap: 19px;
         margin: 64px 0 110px 0;
@@ -53,6 +57,10 @@
     .text_red {
         font-size: 24px;
     }
+
+    .items_up:last-child {
+    display: none;
+    } 
 
     .why {
         display: flex;

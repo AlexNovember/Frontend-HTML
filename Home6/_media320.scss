@@ -35,6 +35,54 @@
         font-size: 38px;
     }
 
+    .arrivals {
+        flex-direction: column;
+        padding: 24px 0 46px;
+    }
+  
+    .filter_heading {
+        display: none;
+    }
+
+    .description-sorting {
+        justify-content: flex-end;
+        gap:23px;
+        
+        &-menu {
+        @include fontStyle (12px);
+        }
+        
+        &-menu-filter {
+        padding: 0;
+        }
+    }  
+    
+   .icon-big {
+        margin:8px 0 0 0;
+        width: 37.5px;
+        height: 25px;
+        // margin-right: 81px;
+    }    
+    
+
+    
+    
+
+
+    .filter-sort {
+        gap:61.5px;
+    }
+
+    .text_upper_small {
+        font-size: 16px;
+    }
+
+    .text_upper_big {
+        font-size: 20px;
+    }
+
+    .text_red
+
     .bottom_text,
     .text_red {
         font-size: 20px;
