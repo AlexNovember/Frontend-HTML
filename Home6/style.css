@@ -1058,7 +1058,7 @@ input[type=text]:focus {
   margin: 21px 0 17px;
 }
 .goods_in_cart-right-block-checkout-link {
-  text-align: center;
+  border: none;
   background-color: #F16D7F;
   padding: 15px 42px;
   font-size: 14px;
@@ -1127,7 +1127,7 @@ input[type=text]:focus {
     padding: 0 calc(50vw - 367px);
   }
   .center_top {
-    padding: 0 calc(50vw - 386px);
+    padding: 0 calc(50vw - 384px);
   }
   .board {
     padding: 0 16px;
