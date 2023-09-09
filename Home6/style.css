@@ -1148,6 +1148,9 @@ input[type=text]:focus {
   .description-sorting {
     justify-content: flex-end;
   }
+  .center-mobile {
+    justify-content: center;
+  }
   .choice {
     gap: 19px;
     margin: 64px 0 110px 0;
