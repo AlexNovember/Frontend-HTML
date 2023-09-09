@@ -462,6 +462,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 .items_scr:hover {
@@ -1142,6 +1143,7 @@ input[type=text]:focus {
   }
   .filter-sort {
     padding: 24px 0 0 0;
+    justify-content: space-between;
   }
   .description-sorting {
     justify-content: flex-end;
@@ -1243,6 +1245,12 @@ input[type=text]:focus {
   }
   .filter-sort {
     padding: 26px 0 41px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #6F6E6E;
+    justify-content: space-between;
   }
   .filter_heading {
     display: none;
@@ -1250,6 +1258,11 @@ input[type=text]:focus {
   .description-sorting {
     justify-content: flex-end;
     gap: 23px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #6F6E6E;
   }
   .description-sorting-menu {
     font-size: 12px;

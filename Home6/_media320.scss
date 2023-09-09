@@ -43,6 +43,8 @@
 
     .filter-sort {
         padding: 26px 0 41px;
+        @include fontStyle (12px, 400);
+        justify-content: space-between;
     }
   
     .filter_heading {
@@ -51,7 +53,9 @@
 
     .description-sorting {
         justify-content: flex-end;
-        gap:23px;        
+        gap:23px;      
+        @include fontStyle (12px, 400);
+          
         
         &-menu {
         @include fontStyle (12px, 400);
