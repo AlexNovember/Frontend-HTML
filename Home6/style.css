@@ -1133,8 +1133,15 @@ input[type=text]:focus {
   .title {
     min-height: 74px;
   }
+  .description-sorting {
+    gap: 28px;
+  }
+  .description-sorting-menu-filter {
+    padding: 0;
+    top: 24px;
+  }
   .filter-sort {
-    padding-bottom: 0px;
+    padding: 24px 0 0 0;
   }
   .description-sorting {
     justify-content: flex-end;
@@ -1146,7 +1153,7 @@ input[type=text]:focus {
   .section_bottom {
     grid-template-columns: repeat(2, 2fr);
     gap: 16px;
-    margin: 72px 0 32px 0;
+    margin: 40px 0 32px 0;
   }
   .items_up {
     display: flex;
@@ -1234,6 +1241,9 @@ input[type=text]:focus {
     flex-direction: column;
     padding: 24px 0 46px;
   }
+  .filter-sort {
+    padding: 26px 0 41px;
+  }
   .filter_heading {
     display: none;
   }
@@ -1250,6 +1260,7 @@ input[type=text]:focus {
   }
   .description-sorting-menu-filter {
     padding: 0;
+    top: 24px;
   }
   .description-sorting-menu-box {
     width: 60px;
@@ -1258,7 +1269,7 @@ input[type=text]:focus {
     width: 112px;
   }
   .icon-big {
-    margin: 8px 0 0 0;
+    margin-left: 0;
     width: 37.5px;
     height: 25px;
   }

@@ -16,8 +16,18 @@
         min-height: 74px;
     }
 
+    .description-sorting {
+        gap:28px;
+    }
+
+
+    .description-sorting-menu-filter {
+        padding: 0;
+        top: 24px;
+    }
+
     .filter-sort {
-        padding-bottom: 0px;
+        padding: 24px 0 0 0;
     }
 
     .description-sorting {
@@ -32,7 +42,7 @@
     .section_bottom {
         grid-template-columns: repeat(2, 2fr);
         gap: 16px;
-        margin: 72px 0 32px 0;
+        margin: 40px 0 32px 0;
     }
 
     .items_up {

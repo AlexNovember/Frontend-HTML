@@ -40,6 +40,10 @@
         flex-direction: column;
         padding: 24px 0 46px;
     }
+
+    .filter-sort {
+        padding: 26px 0 41px;
+    }
   
     .filter_heading {
         display: none;
@@ -47,7 +51,7 @@
 
     .description-sorting {
         justify-content: flex-end;
-        gap:23px;
+        gap:23px;        
         
         &-menu {
         @include fontStyle (12px, 400);
@@ -55,8 +59,10 @@
         
         &-menu-filter {
         padding: 0;
+        top: 24px;
         }
 
+        
         &-menu-box{
             width: 60px;
             
@@ -67,7 +73,7 @@
     }
         
    .icon-big {
-        margin:8px 0 0 0;
+        margin-left: 0;
         width: 37.5px;
         height: 25px;
     }    
