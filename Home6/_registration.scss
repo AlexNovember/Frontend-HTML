@@ -87,17 +87,17 @@
     padding-top: 64px;
 
     &-title {
-        @include fontStyle (24px,300);
+        @include fontStyle (24px, 300, $mainTextColor: #000000);
         margin-bottom: 6px;
     }
 
     &-rule {
-        @include fontStyle (24px,300);
+        @include fontStyle (24px, 300, $mainTextColor: #000000);
         margin-bottom: 5px;
     }
 
     &-text {
-     @include fontStyle(24px,300, $mainTextColor:#000000);   
+     @include fontStyle(24px, 300, $mainTextColor:#000000);   
     
         &:before {
         content: '\2714';
