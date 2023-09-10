@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -272,6 +273,11 @@ ul {
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  transition: 0.3s;
+}
+.input-button:active {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -1119,6 +1125,130 @@ input[type=text]:focus {
 
 .closeModal::after {
   transform: rotate(-45deg);
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #B1B1B1;
+}
+
+.reg_form {
+  display: flex;
+  justify-content: center;
+  gap: 128px;
+}
+.reg_form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 64px 0 96px;
+}
+.reg_form-left-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #6F6E6E;
+}
+.reg_form-left-form {
+  width: 360px;
+  padding: 12px 17px 15px;
+  border: 1px solid #A4A4A4;
+  transition: 0.3s;
+}
+.reg_form-left-form:hover {
+  border-color: #F16D7F;
+}
+.reg_form-left-radio {
+  display: flex;
+  gap: 10px;
+  padding: 11px 0 23px;
+}
+.reg_form-left-radio-button {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #6F6E6E;
+  padding-right: 10px;
+}
+.reg_form-left-radio .radio-other {
+  display: none;
+}
+.reg_form-left-login-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #6F6E6E;
+}
+.reg_form-left-rule {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #B1B1B1;
+}
+.reg_form-left-submit {
+  width: 167px;
+  padding: 16px 20px;
+  margin-top: 39px;
+  background-color: #F16D7F;
+  border: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.reg_form-left-submit:hover {
+  background-color: #f44d63;
+}
+.reg_form-left-submit:active {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.reg_form-left-submit-icon {
+  margin-left: 20px;
+}
+
+.reg_form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 64px;
+}
+.reg_form-right-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #6F6E6E;
+  margin-bottom: 6px;
+}
+.reg_form-right-rule {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #6F6E6E;
+  margin-bottom: 5px;
+}
+.reg_form-right-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #000000;
+}
+.reg_form-right-text:before {
+  content: "✔";
+  padding-right: 22px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
