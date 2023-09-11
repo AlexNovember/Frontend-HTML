@@ -115,5 +115,31 @@
     .input-form-inputs {
         justify-content: center;
     }
+    
+.reg_form {
+    gap: 22px;
+    padding-top: 40px;
+    padding-bottom: 96px;
+    }
+
+.reg_form-right {
+
+    &-rule {
+        @include fontStyle (16px);
+    }
+
+    &-text {
+     @include fontStyle(16px);   
+    }
+    
+    
+}
+
+.reg_form-left-radio .radio-other {
+        visibility: visible;
+    }
+
 
 }
+
+
