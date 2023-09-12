@@ -883,11 +883,12 @@ input[type=text]:focus {
 
 .goods_in_cart {
   padding-top: 96px;
+  padding-bottom: 128px;
 }
 
 .goods_in_cart-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 390px;
   gap: 52px;
 }
 
@@ -900,6 +901,7 @@ input[type=text]:focus {
   height: 306px;
 }
 .goods_in_cart-left-block-items {
+  position: relative;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   display: flex;
   transition: 0.3s;
@@ -908,8 +910,6 @@ input[type=text]:focus {
   transform: scale(1.02);
 }
 .goods_in_cart-left-block-item {
-  position: relative;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 22px 97px 62px 32px;
@@ -932,6 +932,7 @@ input[type=text]:focus {
 }
 .goods_in_cart-left-block-item-quantity-input {
   width: 44px;
+  box-sizing: border-box;
   height: 24.949px;
   text-align: center;
   border: 1px solid #EAEAEA;
@@ -946,8 +947,7 @@ input[type=text]:focus {
 .goods_in_cart-box-buttons {
   display: flex;
   justify-content: space-between;
-  width: 652px;
-  margin-bottom: 128px;
+  margin-top: 32px;
 }
 .goods_in_cart-box-buttons .goods_in_cart-box-button {
   border: 1px solid #A4A4A4;
@@ -1100,7 +1100,7 @@ input[type=text]:focus {
 .closeModal {
   position: absolute;
   top: 10px;
-  right: -20px;
+  right: 40px;
   opacity: 0.8;
   cursor: pointer;
   transition: opacity ease 0.5s;
@@ -1324,6 +1324,9 @@ input[type=text]:focus {
     color: #FBFBFB;
     padding: 48px 0 64px 0;
     gap: 30px;
+  }
+  .goods_in_cart-box {
+    grid-template-columns: 1fr;
   }
   .register {
     background-image: url(img/background700.png);

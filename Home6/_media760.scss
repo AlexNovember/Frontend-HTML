@@ -92,6 +92,11 @@
         gap: 30px;
     }
 
+
+    .goods_in_cart-box {
+        grid-template-columns: 1fr;
+    }
+
     .register {
         background-image: url(img/background700.png);
         height: 693px;
