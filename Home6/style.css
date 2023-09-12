@@ -888,8 +888,8 @@ input[type=text]:focus {
 
 .goods_in_cart-box {
   display: grid;
-  grid-template-columns: 1fr 390px;
-  gap: 52px;
+  grid-template-columns: 652px 360px;
+  gap: 128px;
 }
 
 .goods_in_cart-left-block {
@@ -912,7 +912,7 @@ input[type=text]:focus {
 .goods_in_cart-left-block-item {
   flex-direction: column;
   justify-content: space-between;
-  padding: 22px 97px 62px 32px;
+  padding: 22px 0 0 32px;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -982,7 +982,11 @@ input[type=text]:focus {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  margin-left: 56px;
+}
+.goods_in_cart-right-block .right-block-box {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
 }
 .goods_in_cart-right-block-title {
   font-size: 16px;
@@ -996,6 +1000,7 @@ input[type=text]:focus {
   justify-content: space-between;
 }
 .goods_in_cart-right-block-input {
+  box-sizing: border-box;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1014,6 +1019,7 @@ input[type=text]:focus {
   line-height: normal;
   color: #6F6E6E;
   white-space: nowrap;
+  box-sizing: border-box;
   transition: 0.3s;
 }
 .goods_in_cart-right-block-quote:hover {
@@ -1063,7 +1069,7 @@ input[type=text]:focus {
   margin: 21px 0 17px;
 }
 .goods_in_cart-right-block-checkout-link {
-  border: none;
+  box-sizing: border-box;
   background-color: #F16D7F;
   padding: 15px 42px;
   font-size: 14px;

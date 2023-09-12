@@ -14,8 +14,8 @@ input[type=text]:focus {
 
 .goods_in_cart-box {
     display: grid;
-    grid-template-columns: 1fr 390px;
-    gap: 52px;
+    grid-template-columns: 652px 360px;
+    gap: max(128px);
 }
 
 .goods_in_cart-left-block {
@@ -42,7 +42,7 @@ input[type=text]:focus {
         
         flex-direction: column;
         justify-content: space-between;
-        padding: 22px 97px 62px 32px;
+        padding: 22px 0 0 32px;
         @include fontStyle (22px);
     }
 
@@ -102,8 +102,14 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     gap: 21px;
-    margin-left: 56px;
+    // margin-left: 56px;
 
+    .right-block-box {
+        display: flex;
+        flex-direction: column;
+        gap:21px;
+
+    }
 
     &-title {
         @include fontStyle (16px, 300, $mainTextColor: #222222);
@@ -115,6 +121,7 @@ input[type=text]:focus {
     }
 
     &-input {
+        box-sizing: border-box;
         @include fontStyle (18px, 400);
         padding: 13px 17px 16px;
         color: $mainColor;
@@ -126,6 +133,7 @@ input[type=text]:focus {
         width: 102px;
         @include fontStyle (11px, 300);
         white-space: nowrap;
+        box-sizing: border-box;
         transition: 0.3s;
 
         &:hover {
@@ -171,7 +179,7 @@ input[type=text]:focus {
         }
 
         &-link {
-            border: none;
+            box-sizing: border-box;
             background-color: $mainColor;
             padding: 15px 42px;
             @include fontStyle ($mainTextColor: white);
