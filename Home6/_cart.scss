@@ -14,7 +14,7 @@ input[type=text]:focus {
 
 .goods_in_cart-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     gap: 128px;
 }
 
@@ -31,7 +31,7 @@ input[type=text]:focus {
         position: relative;
         box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
         display: grid;
-        grid-template-columns: 262px 1fr;
+        grid-template-columns: 262px auto;
         transition: 0.3s;
 
         &:hover {
@@ -64,6 +64,10 @@ input[type=text]:focus {
         border: 1px solid #EAEAEA;
         margin-left: 24px;
         @include fontStyle (18px, $mainTextColor: #656565);
+
+        ::placeholder {
+            font-size: 18px;
+        }
     }
 }
 
@@ -149,10 +153,11 @@ input[type=text]:focus {
     }
 
     &-checkout {
+        height: 214px;
         display: flex;
         flex-direction: column;
         background-color: #F5F3F3;
-        padding: 39px 34px 42px 44px;
+        padding: 39px 44px 0 44px;
         margin-top: 47px;
 
         &-subtotal {
@@ -184,6 +189,7 @@ input[type=text]:focus {
 
         &-link {
             box-sizing: border-box;
+            border: none;
             background-color: $mainColor;
             padding: 15px 42px;
             @include fontStyle ($mainTextColor: white);
@@ -199,7 +205,8 @@ input[type=text]:focus {
     ::-webkit-input-placeholder {
         @include fontStyle (13px, 300, $mainTextColor: #B1B1B1);
     }
-}
+
+   }
 
 .value_box {
     display: flex;

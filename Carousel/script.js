@@ -1,60 +1,28 @@
-const images = document.querySelectorAll('img')
-const totalImages = images.length;
+var slideIndex = 1;
+showSlides(slideIndex);
 
-const prevBtn = document.querySelector('.prev-btn')
-const nextBtn = document.querySelector('.next-btn')
-
-const selectedImgBtns = document.querySelectorAll('.img-nav-item')
-
-let currentImgId = 0;
-
-const hideAllImages = () => {
-  images.forEach(img => {
-    // hide all images
-    if (img.classList[0] === 'visible') {
-      img.classList.remove('visible')
-      img.classList.add('hidden')
-    }
-  })
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-const traverseImages = (direction) => {
-  hideAllImages()
-  
-  if (direction === 'prev') {
-    currentImgId = currentImgId ? (currentImgId - 1) % totalImages : totalImages - 1
-  } else {
-    currentImgId = (currentImgId + 1) % totalImages
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  
-  images[currentImgId].classList.remove('hidden')
-  images[currentImgId].classList.add('visible')
-  
-  selectedImgBtns.forEach(btn => btn.classList.remove('img-nav-item-selected'))
-  selectedImgBtns[currentImgId].classList.add('img-nav-item-selected')
-}
-
-const handleBtnClick = (btn, i) => {
-  // not sure about this fuckery, but it works
-  if (btn.classList.forEach(btnClass => {
-    if (btnClass === 'img-nav-item-selected') {
-      return true
-    }
-  })) {
-    return
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
   }
-  
-  selectedImgBtns.forEach(btn => btn.classList.remove('img-nav-item-selected'))
-  btn.classList.add('img-nav-item-selected')
-  hideAllImages()
-  currentImgId = i
-  images[currentImgId].classList.remove('hidden')
-  images[currentImgId].classList.add('visible')
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
-
-prevBtn.addEventListener('click', () => traverseImages('prev'))
-nextBtn.addEventListener('click', () => traverseImages('next'))
-
-selectedImgBtns.forEach((btn, i) => {
-  btn.addEventListener('click', () => handleBtnClick(btn, i))
-})

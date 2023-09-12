@@ -888,7 +888,7 @@ input[type=text]:focus {
 
 .goods_in_cart-box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   gap: 128px;
 }
 
@@ -904,7 +904,7 @@ input[type=text]:focus {
   position: relative;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   display: grid;
-  grid-template-columns: 262px 1fr;
+  grid-template-columns: 262px auto;
   transition: 0.3s;
 }
 .goods_in_cart-left-block-items:hover {
@@ -944,6 +944,12 @@ input[type=text]:focus {
   font-weight: 400;
   line-height: normal;
   color: #656565;
+}
+.goods_in_cart-left-block-item-quantity-input ::-moz-placeholder {
+  font-size: 18px;
+}
+.goods_in_cart-left-block-item-quantity-input ::placeholder {
+  font-size: 18px;
 }
 
 .goods_in_cart-box-buttons {
@@ -1035,10 +1041,11 @@ input[type=text]:focus {
   border: 1px solid #F16D7F;
 }
 .goods_in_cart-right-block-checkout {
+  height: 214px;
   display: flex;
   flex-direction: column;
   background-color: #F5F3F3;
-  padding: 39px 34px 42px 44px;
+  padding: 39px 44px 0 44px;
   margin-top: 47px;
 }
 .goods_in_cart-right-block-checkout-subtotal {
@@ -1076,6 +1083,7 @@ input[type=text]:focus {
 }
 .goods_in_cart-right-block-checkout-link {
   box-sizing: border-box;
+  border: none;
   background-color: #F16D7F;
   padding: 15px 42px;
   font-size: 14px;
@@ -1337,8 +1345,15 @@ input[type=text]:focus {
     padding: 48px 0 64px 0;
     gap: 30px;
   }
+  .goods_in_cart {
+    padding-top: 59px;
+  }
   .goods_in_cart-box {
     grid-template-columns: 1fr;
+    gap: 64px;
+  }
+  .goods_in_cart-box-buttons {
+    margin-top: 22px;
   }
   .register {
     background-image: url(img/background700.png);
@@ -1380,6 +1395,14 @@ input[type=text]:focus {
   }
   .reg_form-left-radio .radio-other {
     visibility: visible;
+  }
+  .goods_in_cart-right-block {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    padding-bottom: 147px;
+  }
+  .goods_in_cart-right-block-checkout {
+    margin-top: 40px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
