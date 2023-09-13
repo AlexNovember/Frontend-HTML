@@ -172,14 +172,28 @@
 .goods_in_cart-right-block {
     display: grid;
     grid-template-columns: 360px 360px;
-    padding-bottom: 147px;
-
+    
     &-checkout {
         margin-top: 40px;
         // padding-bottom: 42px;
 
     }
 }
+
+.goods_in_cart-left-block-items {
+    grid-template-columns: 262px 472px;    
+}
+
+.goods_in_cart-left-block-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+ .goods_in_cart-box-buttons {
+    justify-content: center;
+    gap: 48px;
+ }
 
 .empty_block {
     display: none;
