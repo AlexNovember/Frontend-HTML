@@ -53,6 +53,13 @@
     .items_up {
         display: flex;
         flex-direction: column;
+        
+        
+    }
+
+    .items_up-reverse-next {
+        grid-column: 1;
+        grid-row: 1;
     }
 
     .items_about {
@@ -78,8 +85,12 @@
     }
 
     .hide-mobile {
-    display: none;
+        display: none;
     } 
+
+    .items_up-catalog {
+        display: none;
+    }
 
     .why {
         display: flex;
@@ -164,7 +175,10 @@
         // padding-bottom: 42px;
 
     }
-    
+}
+
+.empty_block {
+    display: none;
 }
 
 }

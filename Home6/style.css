@@ -1359,6 +1359,10 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
   }
+  .items_up-reverse-next {
+    grid-column: 1;
+    grid-row: 1;
+  }
   .items_about {
     gap: 13px;
     padding: 24px 29px 20px 16px;
@@ -1377,6 +1381,9 @@ input[type=text]:focus {
     font-size: 24px;
   }
   .hide-mobile {
+    display: none;
+  }
+  .items_up-catalog {
     display: none;
   }
   .why {
@@ -1447,6 +1454,9 @@ input[type=text]:focus {
   }
   .goods_in_cart-right-block-checkout {
     margin-top: 40px;
+  }
+  .empty_block {
+    display: none;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
