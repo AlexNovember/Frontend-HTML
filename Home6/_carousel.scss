@@ -24,6 +24,10 @@
       overflow: hidden;
       z-index: 3;
       border: none;
+
+      &:hover .arrow-color {
+        fill: $mainColor;
+    }
     }
     
     &__next {

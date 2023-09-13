@@ -54,44 +54,6 @@ ul {
 .active {
     display: flex;
 }
-.carousel {
-    background-color: $pictureBoxBackground;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &-inner {
-        z-index: 1;
-    }
-
-    &-item {
-        left: 25%;
-        top: 0;
-    }
-
-    &-buttons {
-        display: flex;
-    }
-
-    &-control-next {
-        width: 47px;
-        left: 95%;
-        justify-content: none;
-
-        &:hover .arrow-color {
-            fill: $mainColor;
-        }
-    }
-
-    &-control-prev {
-        width: 47px;
-        left: 0;
-
-        &:hover .arrow-color {
-            fill: $mainColor;
-        }
-    }
-}
 
 .empty_block {
     position: relative;
@@ -114,6 +76,9 @@ ul {
 
 
     &-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: relative;
         background-color: #FFF;
         text-align: center;
@@ -127,9 +92,13 @@ ul {
     &-collection {
         @include fontStyle (14px, 300, $mainTextColor: $mainColor);
     }
+    
+    &-line-red {
+        margin: 12px 0;
+    }
 
     &-title {
-        padding: 8px 0 48px 0;
+        padding-bottom: 48px;
         @include fontStyle (18px, 300, $mainTextColor: $descriptionTitleTextColor);
     }
 
@@ -205,6 +174,8 @@ ul {
 
 .add_cart-button {
     @include bigButtons;
+    display: flex;
+    align-items: center;
     background-color: #FFFFFF;
     border: 1px solid $mainColor;
     padding: 12px 57px 12px 24px;

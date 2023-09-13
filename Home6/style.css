@@ -300,6 +300,9 @@ ul {
   z-index: 3;
   border: none;
 }
+.b-carousel__prev:hover .arrow-color, .b-carousel__next:hover .arrow-color {
+  fill: #F16D7F;
+}
 .b-carousel__next {
   left: auto;
   right: 0;
@@ -644,38 +647,6 @@ ul {
   display: flex;
 }
 
-.carousel {
-  background-color: #F7F7F7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.carousel-inner {
-  z-index: 1;
-}
-.carousel-item {
-  left: 25%;
-  top: 0;
-}
-.carousel-buttons {
-  display: flex;
-}
-.carousel-control-next {
-  width: 47px;
-  left: 95%;
-  justify-content: none;
-}
-.carousel-control-next:hover .arrow-color {
-  fill: #F16D7F;
-}
-.carousel-control-prev {
-  width: 47px;
-  left: 0;
-}
-.carousel-control-prev:hover .arrow-color {
-  fill: #F16D7F;
-}
-
 .empty_block {
   position: relative;
   display: flex;
@@ -697,6 +668,9 @@ ul {
   background-color: white;
 }
 .product_description-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   background-color: #FFF;
   text-align: center;
@@ -713,8 +687,11 @@ ul {
   line-height: normal;
   color: #F16D7F;
 }
+.product_description-line-red {
+  margin: 12px 0;
+}
 .product_description-title {
-  padding: 8px 0 48px 0;
+  padding-bottom: 48px;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -804,6 +781,8 @@ ul {
 
 .add_cart-button {
   color: #F16D7F;
+  display: flex;
+  align-items: center;
   background-color: #FFFFFF;
   border: 1px solid #F16D7F;
   padding: 12px 57px 12px 24px;
@@ -1569,6 +1548,9 @@ input[type=text]:focus {
   .items_up:hover {
     transform: none;
   }
+  .items_up-reverse-next {
+    display: none;
+  }
   .why {
     display: flex;
     flex-direction: column;
@@ -1629,5 +1611,25 @@ input[type=text]:focus {
   .goods_in_cart-left-block-img {
     width: 143px;
     height: 188px;
+  }
+  .empty_block {
+    display: none;
+  }
+  .product_description-box {
+    border: none;
+    border-bottom: 3px solid #EAEAEA;
+    margin-bottom: 64px;
+  }
+  .product_description-title {
+    padding-bottom: 32px;
+  }
+  .product_description-text {
+    width: 326px;
+  }
+  .product_description-line {
+    width: 175px;
+  }
+  .product_description .description-sorting {
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

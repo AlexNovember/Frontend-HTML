@@ -131,6 +131,10 @@
         transform: none;
     }
 
+    .items_up-reverse-next {
+        display: none;
+    }
+
     .why {
         display: flex;
         flex-direction: column;
@@ -207,4 +211,35 @@
         width: 143px;
         height: 188px;
     }
+
+    .empty_block {
+        display: none;
+    }
+
+    .product_description{
+
+    &-box{
+        border: none;
+        border-bottom: 3px solid #EAEAEA;
+        margin-bottom: 64px;
+    }
+
+    &-title {
+        padding-bottom: 32px;
+    }
+    
+    &-text {
+        width: 326px;
+    }
+    
+    &-line {
+        width: 175px;
+    }
+
+    .description-sorting {
+        justify-content: center;
+    }
+  }
+
+
 }
