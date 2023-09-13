@@ -1465,6 +1465,9 @@ input[type=text]:focus {
     flex-direction: column;
     padding: 24px 0 46px;
   }
+  .arrivals-new-arrivals {
+    margin-bottom: 32px;
+  }
   .filter-sort {
     padding: 26px 0 41px;
     font-size: 12px;
@@ -1595,6 +1598,10 @@ input[type=text]:focus {
   }
   .reg_form-left-radio .radio-other {
     visibility: visible;
+  }
+  .goods_section-product {
+    margin: 0;
+    padding-bottom: 64px;
   }
   .goods_in_cart-left-block-items {
     grid-template-columns: 1fr 260px;

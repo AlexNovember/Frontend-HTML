@@ -43,6 +43,10 @@
     .arrivals {
         flex-direction: column;
         padding: 24px 0 46px;
+        
+        &-new-arrivals {
+            margin-bottom: 32px;
+        }
     }
 
     .filter-sort {
@@ -200,6 +204,11 @@
 
     .reg_form-left-radio .radio-other {
         visibility: visible;
+    }
+
+    .goods_section-product {
+        margin: 0;
+        padding-bottom: 64px;
     }
 
     .goods_in_cart-left-block-items {
