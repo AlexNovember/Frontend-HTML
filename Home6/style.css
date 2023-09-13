@@ -465,7 +465,7 @@ ul {
 }
 
 .img_index-big {
-  width: 360px;
+  min-width: 360px;
 }
 
 .offer_red {
