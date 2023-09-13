@@ -464,6 +464,10 @@ ul {
   align-content: baseline;
 }
 
+.img_index-big {
+  width: 360px;
+}
+
 .offer_red {
   font-size: 24px;
   font-style: normal;
@@ -1686,7 +1690,7 @@ input[type=text]:focus {
   }
   .product_description-box {
     border: none;
-    border-bottom: 3px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
     margin-bottom: 64px;
   }
   .product_description-title {
@@ -1705,8 +1709,7 @@ input[type=text]:focus {
     top: 5px;
     right: 25px;
   }
-  .closeModal::before,
-  .closeModal::after {
+  .closeModal::before, .closeModal::after {
     width: 10px;
     height: 1px;
   }

@@ -283,7 +283,7 @@
 
     &-box{
         border: none;
-        border-bottom: 3px solid #EAEAEA;
+        border-bottom: 1px solid #EAEAEA;
         margin-bottom: 64px;
     }
 
@@ -307,14 +307,15 @@
   .closeModal {
     top: 5px;
     right: 25px;
-  }
-
-  .closeModal::before,
-.closeModal::after {
+    
+    &::before,
+    &::after {
     width: 10px;
     height: 1px;
-    
-}
+    }
+  }
+
+  
 
 
 }

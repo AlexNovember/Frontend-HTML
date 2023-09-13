@@ -86,6 +86,10 @@
 
 }
 
+.img_index-big {
+    width: 360px;
+}
+
 .offer_red {
     @include fontStyle (24px, 700, $mainTextColor: $mainColor);
 
