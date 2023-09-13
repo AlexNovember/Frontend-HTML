@@ -1394,6 +1394,7 @@ input[type=text]:focus {
   }
   .register-form {
     padding-top: 48px;
+    padding-right: 0;
   }
   .input-form-inputs {
     justify-content: center;
