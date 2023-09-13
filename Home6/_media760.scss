@@ -1,7 +1,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .center {
-        padding: 0 calc(50vw - 367px);
+        padding-right: calc(50vw - 367px);
+        padding-left: calc(50vw - 367px);
     }
 
     .center_top {
@@ -41,7 +42,8 @@
 
     .choice {
         gap: 19px;
-        margin: 64px 0 110px 0;
+        padding: 64px 0 110px 0;
+        margin: 0;
     }
 
     .section_bottom {
@@ -66,7 +68,7 @@
     }
 
     .browse {
-        margin-bottom: 70px;
+        // margin-bottom: 70px;
     }
 
     .box_red_line {
@@ -99,6 +101,10 @@
         color: #FBFBFB;
         padding: 48px 0 64px 0;
         gap: 30px;
+    }
+
+    .goods {
+        padding: 0;
     }
 
     .goods_in_cart {
