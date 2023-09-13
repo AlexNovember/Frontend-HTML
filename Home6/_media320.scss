@@ -195,4 +195,16 @@
         visibility: visible;
     }
 
+    .goods_in_cart-left-block-items {
+        grid-template-columns: 1fr 260px;
+    }
+
+    .goods_in_cart-left-block-item {
+        width: 214px;
+    }
+
+    .goods_in_cart-left-block-img {
+        width: 143px;
+        height: 188px;
+    }
 }

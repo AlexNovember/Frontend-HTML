@@ -31,7 +31,7 @@ input[type=text]:focus {
         position: relative;
         box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
         display: grid;
-        grid-template-columns: 262px auto;
+        grid-template-columns: 1fr 1fr;
         transition: 0.3s;
 
         &:hover {

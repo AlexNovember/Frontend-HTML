@@ -280,6 +280,50 @@ ul {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.wrap {
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.b-carousel {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.b-carousel__prev, .b-carousel__next {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) translateZ(0);
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 3;
+  border: none;
+}
+.b-carousel__next {
+  left: auto;
+  right: 0;
+}
+.b-carousel__wrap {
+  display: flex;
+  transition: transform 0.5s;
+  will-change: transform;
+  position: relative;
+  z-index: 1;
+}
+.b-carousel__item {
+  flex: 0 0 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b-carousel__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
 .footer {
   background-color: #222224;
 }
@@ -904,7 +948,7 @@ input[type=text]:focus {
   position: relative;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   display: grid;
-  grid-template-columns: 262px auto;
+  grid-template-columns: 1fr 1fr;
   transition: 0.3s;
 }
 .goods_in_cart-left-block-items:hover {
@@ -1565,5 +1609,15 @@ input[type=text]:focus {
   }
   .reg_form-left-radio .radio-other {
     visibility: visible;
+  }
+  .goods_in_cart-left-block-items {
+    grid-template-columns: 1fr 260px;
+  }
+  .goods_in_cart-left-block-item {
+    width: 214px;
+  }
+  .goods_in_cart-left-block-img {
+    width: 143px;
+    height: 188px;
   }
 }/*# sourceMappingURL=style.css.map */
