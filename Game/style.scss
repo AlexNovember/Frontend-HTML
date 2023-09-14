@@ -1,0 +1,120 @@
+$widthDuck: 55px;
+$numberDuck: 6;
+
+@for $i from 1 through $numberDuck {
+@keyframes duckFly-#{$i} {
+ 0% {
+    left: -$widthDuck;
+    top: random(70)+vh;
+}
+
+50% {
+    left: random(90)+vw;
+    top: random(70)+vh;
+}
+
+100% {
+    left: 100vw;
+    top: random(70)+vh;
+        }
+    }
+}
+
+
+body {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    counter-reset: count;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://i.ytimg.com/vi/i9R8MqilMW8/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: crosshair;
+    user-select: none;
+    cursor: none;
+}
+
+.duck-check {
+    position: absolute;
+    visibility: hidden;
+    left: -9999999px;
+&:checked {
+    counter-increment: count;
+}
+
+&:checked ~ label {
+    display: none;
+}
+}
+
+.counter_info {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+
+    &::before {
+        content: counter(count);
+    }
+}
+
+.duck {
+    position: absolute;
+    &_img {
+        width: $widthDuck;
+        height: auto;
+        cursor: crosshair;
+    }
+
+    @for $i from 1 through $numberDuck {
+    &_#{$i} {
+        animation: duckFly-#{$i} 5s ease-in #{$i*2}s both;
+    }
+   }
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Metal Mania', cursive;
+    position: relative;
+    color: #212121;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #212122;
+                
+
+    &:before {
+        position: absolute;
+        text-align: center;
+        content: 'START';
+        color: #00ffff;
+        border-bottom: 4px solid #00ffff;
+        overflow: hidden;
+        animation: Biandi 3s infinite linear;
+        
+        
+        
+    }
+}
+@keyframes  Biandi {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.rounded{
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    cursor: none;
+    // z-index: 5;
+  }

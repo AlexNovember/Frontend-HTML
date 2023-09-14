@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="message">START</h1>
+
+<div class="cursor rounded"><img width="35px"  height="35px" src="https://cdn.icon-icons.com/icons2/416/PNG/64/sight_41459.png" alt=""></div>
+
+
+<div class="cursor"></div>
+<div class="duck duck_1"><input class="duck-check" type="checkbox" id="duck_1">
+    <label for="duck_1"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+<div class="duck duck_2"><input class="duck-check" type="checkbox" id="duck_2">
+    <label for="duck_2"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+<div class="duck duck_3"><input class="duck-check" type="checkbox" id="duck_3">
+    <label for="duck_3"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+<div class="duck duck_4"><input class="duck-check" type="checkbox" id="duck_4">
+    <label for="duck_4"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+<div class="duck duck_5"><input class="duck-check" type="checkbox" id="duck_5">
+    <label for="duck_5"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+<div class="duck duck_6"><input class="duck-check" type="checkbox" id="duck_6">
+    <label for="duck_6"><img class="duck_img" src="https://i.gifer.com/3pKc.gif" alt="duck"></label>
+</div>
+
+    <h2 class="counter_info"></h2>
+    
+
+    <script>
+        setTimeout(function(){
+            document.getElementById('message').style.display = 'none';
+        }, 2980);
+        </script>
+
+<script>
+const cursorRounded = document.querySelector('.rounded');
+const cursorPointed = document.querySelector('.pointed');
+
+
+const moveCursor = (e)=> {
+  const mouseY = e.clientY;
+  const mouseX = e.clientX;
+   
+  cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+   
+}
+
+window.addEventListener('mousemove', moveCursor)
+</script>
+
+
+</body>
+</html>
