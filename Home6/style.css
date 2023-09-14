@@ -290,6 +290,7 @@ ul {
   box-sizing: border-box;
 }
 .b-carousel__prev, .b-carousel__next {
+  z-index: 2;
   position: absolute;
   top: 50%;
   left: 0;
@@ -304,6 +305,7 @@ ul {
   fill: #F16D7F;
 }
 .b-carousel__next {
+  z-index: 2;
   left: auto;
   right: 0;
 }
