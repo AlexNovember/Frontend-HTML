@@ -732,7 +732,7 @@ ul {
 }
 .description-sorting-menu-box {
   position: absolute;
-  z-index: 5;
+  z-index: 3;
   background: #FFF;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   padding: 7px 30px 11px 9px;
@@ -762,7 +762,7 @@ ul {
 .description-sorting-menu-box-color {
   width: 150px;
   position: absolute;
-  z-index: 5;
+  z-index: 3;
   background: #FFF;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   padding: 7px 30px 11px 9px;
@@ -821,6 +821,7 @@ ul {
 }
 
 .description-sorting-menu-filter {
+  width: 360px;
   position: absolute;
   z-index: 5;
   box-sizing: border-box;
@@ -1713,5 +1714,8 @@ input[type=text]:focus {
   .closeModal::before, .closeModal::after {
     width: 10px;
     height: 1px;
+  }
+  .description-sorting-menu-filter {
+    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
