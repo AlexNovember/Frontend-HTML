@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Frontend",
+			"path": "."
+		},
+		{
+			"name": "hw-10.033",
+			"path": "../../../../Downloads/hw-6/hw-10.033"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Frontend"
+	}
+}
