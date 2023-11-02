@@ -1,27 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
 }
 
-
 .header {
-    padding-top: 40px;
-    margin-bottom: 84px;
+	padding-top: 40px;
+	margin-bottom: 84px;
 }
 
 .top__menu {
-    padding-top: 51px;
-    margin-bottom: 96px;
+	padding-top: 51px;
+	margin-bottom: 96px;
 }
 
 .top__content-text {
-    margin-top: 17px;
-    margin-bottom: 37px;
+	margin-top: 17px;
+	margin-bottom: 37px;
 }
 
 .logos {
-    margin-top: 192px;
-    padding-top: 96px;
-    padding-bottom: 96px;
+	margin-top: 192px;
+	padding-top: 96px;
+	padding-bottom: 96px;
 }
