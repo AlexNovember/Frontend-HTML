@@ -1,0 +1,143 @@
+@font-face {
+	font-family: "Gilroy-SemiBold";
+	src: url("../White/fonts/GilroySemiBold.ttf");
+
+	font-family: "Gilroy-Medium";
+	src: url("fonts/GilroyMedium.ttf");
+
+	font-family: "Gilroy-Bold";
+	src: url("fonts/GilroyBold.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.center {
+	padding-left: calc(50vw - 570px);
+	padding-right: calc(50vw - 570px);
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 45px 0 0 0;
+}
+
+.menu__left {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.menu__right {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.menu-link {
+	color: #000;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.menu-link:first-child {
+	color: #f25822;
+	font-family: Gilroy-SemiBold;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.main {
+	display: flex;
+	gap: 40px;
+	padding-top: 89px;
+}
+
+.main__left {
+	max-width: 522px;
+}
+
+.main__left-title {
+	color: #000;
+
+	font-family: Gilroy-Bold;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.main__left-text {
+	color: #888888;
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 17px 0 37px 0;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 72px;
+}
+
+.button__start {
+	width: 140px;
+	height: 50px;
+	flex-shrink: 0;
+
+	border-radius: 50px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	border: transparent;
+	cursor: pointer;
+
+	color: #fff;
+
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.button__watch {
+	color: #aaa;
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer {
+	align-items: center;
+}
+
+.logos {
+	padding-top: 259px;
+	padding-bottom: 96px;
+	display: flex;
+	justify-content: space-between;
+}
